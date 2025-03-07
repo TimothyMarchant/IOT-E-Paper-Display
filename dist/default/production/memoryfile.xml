@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/E_Paper_IOT_Proof_Of_Concept.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>16384</length>
+      <used>3696</used>
+      <free>12688</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>4096</length>
+      <used>1421</used>
+      <free>2675</free>
+    </memory>
+  </executable>
+</project>
