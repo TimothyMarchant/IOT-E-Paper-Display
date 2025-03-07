@@ -131,6 +131,9 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>GPIO.h</itemPath>
+      <itemPath>CircularQueue.h</itemPath>
+      <itemPath>Timer0_Methods.h</itemPath>
+      <itemPath>SPI_Methods.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -189,6 +192,7 @@
       <itemPath>Timer0_Methods.c</itemPath>
       <itemPath>SERCOM0_Methods_SPI.c</itemPath>
       <itemPath>SERCOM1_Methods_UART.c</itemPath>
+      <itemPath>CircularQueue.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
