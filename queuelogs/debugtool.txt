@@ -1,0 +1,1043 @@
+30345 1741416967564 XXXX 1741416967564, Thread 30345: XXXX 1741416967564, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967564 XXXX 1741416967564, Thread 30345: XXXX 1741416967564, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967566 XXXX 1741416967566, Thread 30345: XXXX 1741416967566, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967566 XXXX 1741416967566, Thread 30345: XXXX 1741416967566, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967566 XXXX 1741416967566, Thread 30345: XXXX 1741416967566, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967570 XXXX 1741416967570, Thread 30345: XXXX 1741416967570, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967570 XXXX 1741416967570, Thread 30345: XXXX 1741416967570, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967572 XXXX 1741416967572, Thread 30345: XXXX 1741416967572, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967572 XXXX 1741416967572, Thread 30345: XXXX 1741416967572, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967572 XXXX 1741416967572, Thread 30345: XXXX 1741416967572, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967573 XXXX 1741416967573, Thread 30345: XXXX 1741416967573, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967573 XXXX 1741416967573, Thread 30345: XXXX 1741416967573, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967573 XXXX 1741416967573, Thread 30345: XXXX 1741416967573, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967576 XXXX 1741416967576, Thread 30345: XXXX 1741416967576, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967576 XXXX 1741416967576, Thread 30345: XXXX 1741416967576, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967579 XXXX 1741416967579, Thread 30345: XXXX 1741416967579, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967579 XXXX 1741416967579, Thread 30345: XXXX 1741416967579, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967579 XXXX 1741416967579, Thread 30345: XXXX 1741416967579, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967580 XXXX 1741416967580, Thread 30345: XXXX 1741416967580, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967580 XXXX 1741416967580, Thread 30345: XXXX 1741416967580, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967580 XXXX 1741416967580, Thread 30345: XXXX 1741416967580, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967583 XXXX 1741416967583, Thread 30345: XXXX 1741416967583, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967583 XXXX 1741416967583, Thread 30345: XXXX 1741416967583, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967586 XXXX 1741416967586, Thread 30345: XXXX 1741416967586, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967586 XXXX 1741416967586, Thread 30345: XXXX 1741416967586, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967586 XXXX 1741416967586, Thread 30345: XXXX 1741416967586, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967588 XXXX 1741416967588, Thread 30345: XXXX 1741416967588, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967588 XXXX 1741416967588, Thread 30345: XXXX 1741416967588, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967588 XXXX 1741416967588, Thread 30345: XXXX 1741416967588, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967590 XXXX 1741416967590, Thread 30345: XXXX 1741416967590, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967590 XXXX 1741416967590, Thread 30345: XXXX 1741416967590, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967592 XXXX 1741416967592, Thread 30345: XXXX 1741416967592, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967592 XXXX 1741416967592, Thread 30345: XXXX 1741416967592, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967592 XXXX 1741416967592, Thread 30345: XXXX 1741416967592, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967594 XXXX 1741416967594, Thread 30345: XXXX 1741416967594, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967594 XXXX 1741416967594, Thread 30345: XXXX 1741416967594, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967594 XXXX 1741416967594, Thread 30345: XXXX 1741416967594, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967597 XXXX 1741416967597, Thread 30345: XXXX 1741416967597, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967597 XXXX 1741416967597, Thread 30345: XXXX 1741416967597, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967599 XXXX 1741416967599, Thread 30345: XXXX 1741416967599, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967599 XXXX 1741416967599, Thread 30345: XXXX 1741416967599, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967599 XXXX 1741416967599, Thread 30345: XXXX 1741416967599, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967601 XXXX 1741416967601, Thread 30345: XXXX 1741416967601, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967601 XXXX 1741416967601, Thread 30345: XXXX 1741416967601, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967601 XXXX 1741416967601, Thread 30345: XXXX 1741416967601, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967604 XXXX 1741416967604, Thread 30345: XXXX 1741416967604, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967604 XXXX 1741416967604, Thread 30345: XXXX 1741416967604, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967606 XXXX 1741416967606, Thread 30345: XXXX 1741416967606, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967606 XXXX 1741416967606, Thread 30345: XXXX 1741416967606, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967606 XXXX 1741416967606, Thread 30345: XXXX 1741416967606, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967608 XXXX 1741416967608, Thread 30345: XXXX 1741416967608, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967608 XXXX 1741416967608, Thread 30345: XXXX 1741416967608, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967608 XXXX 1741416967608, Thread 30345: XXXX 1741416967608, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967611 XXXX 1741416967611, Thread 30345: XXXX 1741416967611, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967611 XXXX 1741416967611, Thread 30345: XXXX 1741416967611, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967614 XXXX 1741416967614, Thread 30345: XXXX 1741416967614, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967614 XXXX 1741416967614, Thread 30345: XXXX 1741416967614, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967614 XXXX 1741416967614, Thread 30345: XXXX 1741416967614, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967617 XXXX 1741416967617, Thread 30345: XXXX 1741416967617, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967617 XXXX 1741416967617, Thread 30345: XXXX 1741416967617, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967617 XXXX 1741416967617, Thread 30345: XXXX 1741416967617, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967619 XXXX 1741416967619, Thread 30345: XXXX 1741416967619, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967619 XXXX 1741416967619, Thread 30345: XXXX 1741416967619, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967622 XXXX 1741416967622, Thread 30345: XXXX 1741416967622, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967622 XXXX 1741416967622, Thread 30345: XXXX 1741416967622, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967622 XXXX 1741416967622, Thread 30345: XXXX 1741416967622, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967624 XXXX 1741416967624, Thread 30345: XXXX 1741416967624, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967624 XXXX 1741416967624, Thread 30345: XXXX 1741416967624, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967624 XXXX 1741416967624, Thread 30345: XXXX 1741416967624, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967626 XXXX 1741416967626, Thread 30345: XXXX 1741416967626, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967626 XXXX 1741416967626, Thread 30345: XXXX 1741416967626, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967629 XXXX 1741416967629, Thread 30345: XXXX 1741416967629, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967629 XXXX 1741416967629, Thread 30345: XXXX 1741416967629, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967629 XXXX 1741416967629, Thread 30345: XXXX 1741416967629, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967630 XXXX 1741416967630, Thread 30345: XXXX 1741416967630, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967630 XXXX 1741416967630, Thread 30345: XXXX 1741416967630, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967631 XXXX 1741416967631, Thread 30345: XXXX 1741416967631, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967633 XXXX 1741416967633, Thread 30345: XXXX 1741416967633, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967633 XXXX 1741416967633, Thread 30345: XXXX 1741416967633, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967636 XXXX 1741416967636, Thread 30345: XXXX 1741416967636, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967636 XXXX 1741416967636, Thread 30345: XXXX 1741416967636, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967636 XXXX 1741416967636, Thread 30345: XXXX 1741416967636, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967637 XXXX 1741416967637, Thread 30345: XXXX 1741416967637, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967637 XXXX 1741416967637, Thread 30345: XXXX 1741416967637, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967637 XXXX 1741416967637, Thread 30345: XXXX 1741416967637, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967640 XXXX 1741416967640, Thread 30345: XXXX 1741416967640, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967640 XXXX 1741416967640, Thread 30345: XXXX 1741416967640, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967643 XXXX 1741416967643, Thread 30345: XXXX 1741416967643, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967643 XXXX 1741416967643, Thread 30345: XXXX 1741416967643, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967643 XXXX 1741416967643, Thread 30345: XXXX 1741416967643, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967644 XXXX 1741416967644, Thread 30345: XXXX 1741416967644, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967644 XXXX 1741416967644, Thread 30345: XXXX 1741416967644, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967644 XXXX 1741416967644, Thread 30345: XXXX 1741416967644, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967647 XXXX 1741416967647, Thread 30345: XXXX 1741416967647, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967647 XXXX 1741416967647, Thread 30345: XXXX 1741416967647, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967650 XXXX 1741416967650, Thread 30345: XXXX 1741416967650, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967650 XXXX 1741416967650, Thread 30345: XXXX 1741416967650, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967650 XXXX 1741416967650, Thread 30345: XXXX 1741416967650, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967652 XXXX 1741416967652, Thread 30345: XXXX 1741416967652, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967652 XXXX 1741416967652, Thread 30345: XXXX 1741416967652, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967652 XXXX 1741416967652, Thread 30345: XXXX 1741416967652, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967655 XXXX 1741416967655, Thread 30345: XXXX 1741416967655, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967655 XXXX 1741416967655, Thread 30345: XXXX 1741416967655, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967657 XXXX 1741416967657, Thread 30345: XXXX 1741416967657, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967657 XXXX 1741416967657, Thread 30345: XXXX 1741416967657, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967657 XXXX 1741416967657, Thread 30345: XXXX 1741416967657, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967659 XXXX 1741416967659, Thread 30345: XXXX 1741416967659, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967659 XXXX 1741416967659, Thread 30345: XXXX 1741416967659, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967659 XXXX 1741416967659, Thread 30345: XXXX 1741416967659, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967662 XXXX 1741416967662, Thread 30345: XXXX 1741416967662, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967662 XXXX 1741416967662, Thread 30345: XXXX 1741416967662, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967664 XXXX 1741416967664, Thread 30345: XXXX 1741416967664, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967664 XXXX 1741416967664, Thread 30345: XXXX 1741416967664, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967664 XXXX 1741416967664, Thread 30345: XXXX 1741416967664, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967666 XXXX 1741416967666, Thread 30345: XXXX 1741416967666, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967666 XXXX 1741416967666, Thread 30345: XXXX 1741416967666, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967666 XXXX 1741416967666, Thread 30345: XXXX 1741416967666, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967669 XXXX 1741416967669, Thread 30345: XXXX 1741416967669, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967669 XXXX 1741416967669, Thread 30345: XXXX 1741416967669, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967671 XXXX 1741416967671, Thread 30345: XXXX 1741416967671, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967671 XXXX 1741416967671, Thread 30345: XXXX 1741416967671, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967671 XXXX 1741416967671, Thread 30345: XXXX 1741416967671, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967673 XXXX 1741416967673, Thread 30345: XXXX 1741416967673, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967673 XXXX 1741416967673, Thread 30345: XXXX 1741416967673, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967673 XXXX 1741416967673, Thread 30345: XXXX 1741416967673, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967676 XXXX 1741416967676, Thread 30345: XXXX 1741416967676, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967676 XXXX 1741416967676, Thread 30345: XXXX 1741416967676, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967678 XXXX 1741416967678, Thread 30345: XXXX 1741416967678, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967678 XXXX 1741416967678, Thread 30345: XXXX 1741416967678, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967678 XXXX 1741416967678, Thread 30345: XXXX 1741416967678, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967680 XXXX 1741416967680, Thread 30345: XXXX 1741416967680, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967680 XXXX 1741416967680, Thread 30345: XXXX 1741416967680, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967680 XXXX 1741416967680, Thread 30345: XXXX 1741416967680, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967684 XXXX 1741416967684, Thread 30345: XXXX 1741416967684, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967684 XXXX 1741416967684, Thread 30345: XXXX 1741416967684, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967686 XXXX 1741416967686, Thread 30345: XXXX 1741416967686, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967686 XXXX 1741416967686, Thread 30345: XXXX 1741416967686, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967686 XXXX 1741416967686, Thread 30345: XXXX 1741416967686, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967688 XXXX 1741416967688, Thread 30345: XXXX 1741416967688, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967688 XXXX 1741416967688, Thread 30345: XXXX 1741416967688, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967688 XXXX 1741416967688, Thread 30345: XXXX 1741416967688, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967691 XXXX 1741416967691, Thread 30345: XXXX 1741416967691, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967691 XXXX 1741416967691, Thread 30345: XXXX 1741416967691, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967693 XXXX 1741416967693, Thread 30345: XXXX 1741416967693, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967693 XXXX 1741416967693, Thread 30345: XXXX 1741416967693, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967693 XXXX 1741416967693, Thread 30345: XXXX 1741416967693, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967695 XXXX 1741416967695, Thread 30345: XXXX 1741416967695, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967695 XXXX 1741416967695, Thread 30345: XXXX 1741416967695, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967695 XXXX 1741416967695, Thread 30345: XXXX 1741416967695, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967697 XXXX 1741416967697, Thread 30345: XXXX 1741416967697, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967697 XXXX 1741416967697, Thread 30345: XXXX 1741416967697, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967699 XXXX 1741416967699, Thread 30345: XXXX 1741416967699, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967699 XXXX 1741416967699, Thread 30345: XXXX 1741416967699, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967699 XXXX 1741416967699, Thread 30345: XXXX 1741416967699, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967701 XXXX 1741416967701, Thread 30345: XXXX 1741416967701, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967701 XXXX 1741416967701, Thread 30345: XXXX 1741416967701, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967701 XXXX 1741416967701, Thread 30345: XXXX 1741416967701, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967704 XXXX 1741416967704, Thread 30345: XXXX 1741416967704, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967704 XXXX 1741416967704, Thread 30345: XXXX 1741416967704, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967707 XXXX 1741416967707, Thread 30345: XXXX 1741416967707, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967707 XXXX 1741416967707, Thread 30345: XXXX 1741416967707, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967707 XXXX 1741416967707, Thread 30345: XXXX 1741416967707, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967709 XXXX 1741416967709, Thread 30345: XXXX 1741416967709, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967709 XXXX 1741416967709, Thread 30345: XXXX 1741416967709, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967709 XXXX 1741416967709, Thread 30345: XXXX 1741416967709, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967711 XXXX 1741416967711, Thread 30345: XXXX 1741416967711, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967711 XXXX 1741416967711, Thread 30345: XXXX 1741416967711, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967714 XXXX 1741416967714, Thread 30345: XXXX 1741416967714, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967714 XXXX 1741416967714, Thread 30345: XXXX 1741416967714, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967714 XXXX 1741416967714, Thread 30345: XXXX 1741416967714, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967715 XXXX 1741416967715, Thread 30345: XXXX 1741416967715, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967715 XXXX 1741416967715, Thread 30345: XXXX 1741416967715, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967715 XXXX 1741416967715, Thread 30345: XXXX 1741416967715, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967718 XXXX 1741416967718, Thread 30345: XXXX 1741416967718, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967718 XXXX 1741416967718, Thread 30345: XXXX 1741416967718, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967721 XXXX 1741416967721, Thread 30345: XXXX 1741416967721, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967721 XXXX 1741416967721, Thread 30345: XXXX 1741416967721, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967721 XXXX 1741416967721, Thread 30345: XXXX 1741416967721, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967722 XXXX 1741416967722, Thread 30345: XXXX 1741416967722, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967722 XXXX 1741416967722, Thread 30345: XXXX 1741416967722, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967722 XXXX 1741416967722, Thread 30345: XXXX 1741416967722, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967725 XXXX 1741416967725, Thread 30345: XXXX 1741416967725, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967725 XXXX 1741416967725, Thread 30345: XXXX 1741416967725, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967728 XXXX 1741416967728, Thread 30345: XXXX 1741416967728, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967728 XXXX 1741416967728, Thread 30345: XXXX 1741416967728, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967728 XXXX 1741416967728, Thread 30345: XXXX 1741416967728, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967730 XXXX 1741416967730, Thread 30345: XXXX 1741416967730, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967730 XXXX 1741416967730, Thread 30345: XXXX 1741416967730, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967730 XXXX 1741416967730, Thread 30345: XXXX 1741416967730, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967733 XXXX 1741416967733, Thread 30345: XXXX 1741416967733, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967733 XXXX 1741416967733, Thread 30345: XXXX 1741416967733, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967736 XXXX 1741416967736, Thread 30345: XXXX 1741416967736, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967736 XXXX 1741416967736, Thread 30345: XXXX 1741416967736, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967736 XXXX 1741416967736, Thread 30345: XXXX 1741416967736, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967738 XXXX 1741416967738, Thread 30345: XXXX 1741416967738, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967738 XXXX 1741416967738, Thread 30345: XXXX 1741416967738, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967738 XXXX 1741416967738, Thread 30345: XXXX 1741416967738, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967741 XXXX 1741416967741, Thread 30345: XXXX 1741416967741, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967741 XXXX 1741416967741, Thread 30345: XXXX 1741416967741, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967743 XXXX 1741416967743, Thread 30345: XXXX 1741416967743, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967743 XXXX 1741416967743, Thread 30345: XXXX 1741416967743, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967743 XXXX 1741416967743, Thread 30345: XXXX 1741416967743, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967745 XXXX 1741416967745, Thread 30345: XXXX 1741416967745, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967745 XXXX 1741416967745, Thread 30345: XXXX 1741416967745, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967745 XXXX 1741416967745, Thread 30345: XXXX 1741416967745, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967748 XXXX 1741416967748, Thread 30345: XXXX 1741416967748, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967748 XXXX 1741416967748, Thread 30345: XXXX 1741416967748, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967752 XXXX 1741416967752, Thread 30345: XXXX 1741416967752, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967752 XXXX 1741416967752, Thread 30345: XXXX 1741416967752, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967752 XXXX 1741416967752, Thread 30345: XXXX 1741416967752, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967754 XXXX 1741416967754, Thread 30345: XXXX 1741416967754, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967754 XXXX 1741416967754, Thread 30345: XXXX 1741416967754, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967754 XXXX 1741416967754, Thread 30345: XXXX 1741416967754, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967757 XXXX 1741416967757, Thread 30345: XXXX 1741416967757, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967757 XXXX 1741416967757, Thread 30345: XXXX 1741416967757, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967759 XXXX 1741416967759, Thread 30345: XXXX 1741416967759, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967759 XXXX 1741416967759, Thread 30345: XXXX 1741416967759, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967759 XXXX 1741416967759, Thread 30345: XXXX 1741416967759, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967761 XXXX 1741416967761, Thread 30345: XXXX 1741416967761, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967761 XXXX 1741416967761, Thread 30345: XXXX 1741416967761, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967761 XXXX 1741416967761, Thread 30345: XXXX 1741416967761, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967764 XXXX 1741416967764, Thread 30345: XXXX 1741416967764, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967764 XXXX 1741416967764, Thread 30345: XXXX 1741416967764, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967766 XXXX 1741416967766, Thread 30345: XXXX 1741416967766, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967766 XXXX 1741416967766, Thread 30345: XXXX 1741416967766, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967766 XXXX 1741416967766, Thread 30345: XXXX 1741416967766, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967768 XXXX 1741416967768, Thread 30345: XXXX 1741416967768, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967768 XXXX 1741416967768, Thread 30345: XXXX 1741416967768, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967768 XXXX 1741416967768, Thread 30345: XXXX 1741416967768, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967770 XXXX 1741416967770, Thread 30345: XXXX 1741416967770, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967770 XXXX 1741416967770, Thread 30345: XXXX 1741416967770, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967773 XXXX 1741416967773, Thread 30345: XXXX 1741416967773, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967773 XXXX 1741416967773, Thread 30345: XXXX 1741416967773, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967773 XXXX 1741416967773, Thread 30345: XXXX 1741416967773, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967774 XXXX 1741416967774, Thread 30345: XXXX 1741416967774, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967774 XXXX 1741416967774, Thread 30345: XXXX 1741416967774, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967774 XXXX 1741416967774, Thread 30345: XXXX 1741416967774, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967777 XXXX 1741416967777, Thread 30345: XXXX 1741416967777, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967777 XXXX 1741416967777, Thread 30345: XXXX 1741416967777, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967779 XXXX 1741416967779, Thread 30345: XXXX 1741416967779, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967779 XXXX 1741416967779, Thread 30345: XXXX 1741416967779, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967779 XXXX 1741416967779, Thread 30345: XXXX 1741416967779, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967780 XXXX 1741416967780, Thread 30345: XXXX 1741416967780, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967780 XXXX 1741416967780, Thread 30345: XXXX 1741416967780, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967780 XXXX 1741416967780, Thread 30345: XXXX 1741416967780, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu  
+30345 1741416967783 XXXX 1741416967783, Thread 30345: XXXX 1741416967783, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu)  
+30345 1741416967783 XXXX 1741416967783, Thread 30345: XXXX 1741416967783, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu16  
+30345 1741416967784 XXXX 1741416967784, Thread 30345: XXXX 1741416967784, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu16)  
+30345 1741416967784 XXXX 1741416967784, Thread 30345: XXXX 1741416967784, Entering Thread 30345: Commands::runScriptWithUpload, script name = ReadEmu8  
+30345 1741416967784 XXXX 1741416967784, Thread 30345: XXXX 1741416967784, Entering Thread 30345: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30345 1741416967786 XXXX 1741416967786, Thread 30345: XXXX 1741416967786, Exiting Thread 30345: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30345 1741416967786 XXXX 1741416967786, Thread 30345: XXXX 1741416967786, Exiting Thread 30345: Commands::runScriptWithUpload  
+30345 1741416967786 XXXX 1741416967786, Thread 30345: XXXX 1741416967786, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu8  
+30345 1741416967788 XXXX 1741416967788, Thread 30345: XXXX 1741416967788, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu8)  
+30345 1741416967788 XXXX 1741416967788, Thread 30345: XXXX 1741416967788, Entering Thread 30345: Commands::runScriptWithDownload, script name = WriteEmu32  
+30345 1741416967790 XXXX 1741416967790, Thread 30345: XXXX 1741416967790, Exiting Thread 30345: Commands::runScriptWithDownload(WriteEmu32)  
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Post:SendOperation
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return Value
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A None
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return End
+
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Pre:endOfOperations
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A null
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload End
+30345 1741416967790 ExecuteFunCall.call end_of_operations
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Post:endOfOperations
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return Value
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A None
+30345 1741416967790 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return End
+30345 1741416967791 ExecuteFunCall.call on_program_done
+30345 1741416967791 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
+
+30345 1741416967791 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30345 1741416967791 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30345 1741416967791 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30345 1741416967791 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetFirmwareInfo
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: Values:
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: boot = false, bootVer = 00.00.10, apVer = 02.01.38, fpgaVer = ff.ff.ff, scriptVer = 00.06.71, macAddress = 0504983777653805051484856485350, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = 020026702RYN013643, appCommitID = null, scriptCommitID = 74cdf38a4d, PCB_ID = 2
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetPowerInfo
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: Values:
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: shotDownSystem = true, isToolPower = false, voltage = 0.000000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+30345 1741416967799 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30345 1741416967799 XXXX 1741416967799, Thread 30345: XXXX 1741416967799, Entering Thread 30345: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
+30345 1741416967800 XXXX 1741416967800, Thread 30345: XXXX 1741416967800, Exiting Thread 30345: Commands::runScriptBasic  
+30345 1741416967800 XXXX 1741416967800, Thread 30345: XXXX 1741416967800, Entering Thread 30345: Commands::runScriptBasic with script contents. contents[0] = 0x44, ...  
+30345 1741416967811 XXXX 1741416967811, Thread 30345: XXXX 1741416967811, Exiting Thread 30345: Commands::runScriptBasic  
+30345 1741416967811 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetPowerInfo
+30345 1741416967811 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30345 1741416967811 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30345 1741416967811 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+30345 1741416967812 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@1e0b24ab
+30345 1741416967812 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30345 1741416967812 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30345 1741416967863 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+30345 1741416967863 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+30345 1741416967863 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+30345 1741416967863 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+30646 1741416968621 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+30646 1741416968621 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30646 1741416968621 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+30646 1741416968621 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30646 1741416968622 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool.Connect() returned MPLABCOMM_NO_ERROR
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:Attaching to MPLABCommTool plugnplay
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@5517512e
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@5517512e
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30646 1741416968622 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [9035], CommPnPCriteria.cSerialNumber = 020026702ryn013643
+
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:init
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: Values:
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: pcAddress = 7fffffffffffffff, Vpp = 3.30, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = ATSAML10D14A, programmerType = NVMCTRL_U2207
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: MemInfo values:
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00000000, endAddr = 20000fff, rowSize = 0100, rowEraseSize = 0100, addrInc = 0004, widthProgram = 0004
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804000, endAddr = 0080c0ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968637 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804008, endAddr = 008040ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0100, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 40000000, endAddr = e000efff, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = true, startAddr = 00400000, endAddr = 004007fe, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 7fffffff, exists = true, startAddr = 41002018, endAddr = 4100201b, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: CfgRequiredBitsMask Values:
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804000, Mask = fe00ffb8
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804004, Mask = 000003ff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c004, Mask = 000000ff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c040, Mask = ffffffff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c044, Mask = ffffffff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c048, Mask = ffffffff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c04c, Mask = ffffffff
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: Values:
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@cc306916, ToolFlavor = PIC32C
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:init
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A none
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4DebugInterface
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.DebugImplWithAtmelIceHelp@368e207e
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ProgramInterface
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ProgramImpl@214fa73b
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ConnectInterface
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ICD4TrapCallDeviceIDCommunicationsImpl@4e3e0c1d
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ControllerDiagnosticsInterface
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.atmelice.implementations.UnimplementedDiagnostics@703a2aa7
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A ProgrammerToGo
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Status
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30646 1741416968638 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:EstablishCommunincations
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A com.microchip.mplab.mdbcore.PK5Tool.PK5Com@5fef3a5e
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968639 ExecuteFunCall.call debug_write_supports_flash
+30646 1741416968639 ExecuteFunCall.call begin_communication_session
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:EstablishCommunincations
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A true
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30646 1741416968639 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968647 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetFirmwareInfo
+30646 1741416968647 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968647 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: Values:
+30646 1741416968647 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: boot = false, bootVer = 00.00.10, apVer = 02.01.38, fpgaVer = ff.ff.ff, scriptVer = 00.06.71, macAddress = 0504983777653805051484856485350, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = 020026702RYN013643, appCommitID = null, scriptCommitID = 74cdf38a4d, PCB_ID = 2
+30646 1741416968647 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Created FirmwareUpdateHandler com.microchip.mplab.mdbcore.PK5Tool.PK5FirmwareUpdateHandler@6bda66a4
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Parsing file  for firmware updates
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app.hex,020138
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Jame file line = boot.hex,000010
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Jame file line = scripts.xml,000671
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Selected firmware version for Boot = 00.00.10
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:Selected firmware version for ap = 02.01.38
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+30646 1741416968647 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.updateRI4ToolsFirmware(FirmwareInfo, UpdateMessage)
+30646 1741416968648 GEN4_CONNECT_DIAGNOSTICS:appNeedsUpdate returned false
+30646 1741416968648 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.updateRI4ToolsFirmware(FirmwareInfo, UpdateMessage)
+30646 1741416968648 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+
+30646 1741416968648 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetPowerInfo
+30646 1741416968648 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968648 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: Values:
+30646 1741416968648 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: shotDownSystem = false, isToolPower = true, voltage = 3.250000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+30646 1741416968648 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968648 XXXX 1741416968648, Thread 30646: XXXX 1741416968648, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
+30646 1741416968649 XXXX 1741416968649, Thread 30646: XXXX 1741416968649, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968649 XXXX 1741416968649, Thread 30646: XXXX 1741416968649, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x46, ...  
+30646 1741416968650 XXXX 1741416968650, Thread 30646: XXXX 1741416968650, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968650 XXXX 1741416968650, Thread 30646: XXXX 1741416968650, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x44, ...  
+30646 1741416968663 XXXX 1741416968663, Thread 30646: XXXX 1741416968663, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968663 XXXX 1741416968663, Thread 30646: XXXX 1741416968663, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x40, ...  
+30646 1741416968839 XXXX 1741416968839, Thread 30646: XXXX 1741416968839, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968839 XXXX 1741416968839, Thread 30646: XXXX 1741416968839, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x47, ...  
+30646 1741416968845 XXXX 1741416968845, Thread 30646: XXXX 1741416968845, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetPowerInfo
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetLEDBrightness
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A 5
+30646 1741416968845 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968845 XXXX 1741416968845, Thread 30646: XXXX 1741416968845, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xcf, ...  
+30646 1741416968846 XXXX 1741416968846, Thread 30646: XXXX 1741416968846, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetLEDBrightness
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetToolInfo
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A ToolInfo: Values:
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A ToolInfo: speedLevel = 1, PGCResistance = 4700, PGDResistance = 4700, PGCPullDir = PullDown, PGDPullDir = PullDown, ICSPSelected = Wire2
+30646 1741416968846 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968846 XXXX 1741416968846, Thread 30646: XXXX 1741416968846, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x27, ...  
+30646 1741416968847 XXXX 1741416968847, Thread 30646: XXXX 1741416968847, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968847 XXXX 1741416968847, Thread 30646: XXXX 1741416968847, Entering Thread 30646: Commands::runScriptBasic, script name = SetSpeedFromDevice, timeOut = -1 ms  
+30646 1741416968848 XXXX 1741416968848, Thread 30646: XXXX 1741416968848, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968848 XXXX 1741416968848, Thread 30646: XXXX 1741416968848, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xed, ...  
+30646 1741416968849 XXXX 1741416968849, Thread 30646: XXXX 1741416968849, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968849 XXXX 1741416968849, Thread 30646: XXXX 1741416968849, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0x3b, ...  
+30646 1741416968850 XXXX 1741416968850, Thread 30646: XXXX 1741416968850, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968850 XXXX 1741416968850, Thread 30646: XXXX 1741416968850, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xd4, ...  
+30646 1741416968851 XXXX 1741416968851, Thread 30646: XXXX 1741416968851, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968851 XXXX 1741416968851, Thread 30646: XXXX 1741416968851, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xcd, ...  
+30646 1741416968852 XXXX 1741416968852, Thread 30646: XXXX 1741416968852, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968852 XXXX 1741416968852, Thread 30646: XXXX 1741416968852, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xce, ...  
+30646 1741416968853 XXXX 1741416968853, Thread 30646: XXXX 1741416968853, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968853 XXXX 1741416968853, Thread 30646: XXXX 1741416968853, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xcd, ...  
+30646 1741416968853 XXXX 1741416968853, Thread 30646: XXXX 1741416968853, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968853 XXXX 1741416968853, Thread 30646: XXXX 1741416968853, Entering Thread 30646: Commands::runScriptBasic with script contents. contents[0] = 0xce, ...  
+30646 1741416968855 XXXX 1741416968855, Thread 30646: XXXX 1741416968855, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetToolInfo
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetTargetIDInfo
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30646 1741416968855 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968855 ExecuteFunCall.call begin_programming_operation
+30646 1741416968855 XXXX 1741416968855, Thread 30646: XXXX 1741416968855, Entering Thread 30646: Commands::runScriptBasic, script name = InitSWD, timeOut = -1 ms  
+30646 1741416968869 XXXX 1741416968869, Thread 30646: XXXX 1741416968869, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968869 XXXX 1741416968869, Thread 30646: XXXX 1741416968869, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968871 XXXX 1741416968871, Thread 30646: XXXX 1741416968871, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968871 XXXX 1741416968871, Thread 30646: XXXX 1741416968871, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968874 XXXX 1741416968874, Thread 30646: XXXX 1741416968874, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968874 XXXX 1741416968874, Thread 30646: XXXX 1741416968874, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968876 XXXX 1741416968876, Thread 30646: XXXX 1741416968876, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968876 XXXX 1741416968876, Thread 30646: XXXX 1741416968876, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968878 XXXX 1741416968878, Thread 30646: XXXX 1741416968878, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968888 XXXX 1741416968888, Thread 30646: XXXX 1741416968888, Entering Thread 30646: Commands::runScriptBasic, script name = InitSWD, timeOut = -1 ms  
+30646 1741416968901 XXXX 1741416968901, Thread 30646: XXXX 1741416968901, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968901 XXXX 1741416968901, Thread 30646: XXXX 1741416968901, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu8  
+30646 1741416968901 XXXX 1741416968901, Thread 30646: XXXX 1741416968901, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30646 1741416968903 XXXX 1741416968903, Thread 30646: XXXX 1741416968903, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968903 XXXX 1741416968903, Thread 30646: XXXX 1741416968903, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968903 XXXX 1741416968903, Thread 30646: XXXX 1741416968903, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu8  
+30646 1741416968903 XXXX 1741416968903, Thread 30646: XXXX 1741416968903, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30646 1741416968905 XXXX 1741416968905, Thread 30646: XXXX 1741416968905, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968905 XXXX 1741416968905, Thread 30646: XXXX 1741416968905, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968905 XXXX 1741416968905, Thread 30646: XXXX 1741416968905, Entering Thread 30646: Commands::runScriptWithDownload, script name = WriteEmu8  
+30646 1741416968907 XXXX 1741416968907, Thread 30646: XXXX 1741416968907, Exiting Thread 30646: Commands::runScriptWithDownload(WriteEmu8)  
+30646 1741416968912 XXXX 1741416968912, Thread 30646: XXXX 1741416968912, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu8  
+30646 1741416968912 XXXX 1741416968912, Thread 30646: XXXX 1741416968912, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30646 1741416968913 XXXX 1741416968913, Thread 30646: XXXX 1741416968913, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968913 XXXX 1741416968913, Thread 30646: XXXX 1741416968913, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968913 XXXX 1741416968913, Thread 30646: XXXX 1741416968913, Entering Thread 30646: Commands::runScriptWithDownload, script name = WriteEmu32  
+30646 1741416968915 XXXX 1741416968915, Thread 30646: XXXX 1741416968915, Exiting Thread 30646: Commands::runScriptWithDownload(WriteEmu32)  
+30646 1741416968915 XXXX 1741416968915, Thread 30646: XXXX 1741416968915, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu8  
+30646 1741416968915 XXXX 1741416968915, Thread 30646: XXXX 1741416968915, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30646 1741416968917 XXXX 1741416968917, Thread 30646: XXXX 1741416968917, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968917 XXXX 1741416968917, Thread 30646: XXXX 1741416968917, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968917 XXXX 1741416968917, Thread 30646: XXXX 1741416968917, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu32  
+30646 1741416968917 XXXX 1741416968917, Thread 30646: XXXX 1741416968917, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+30646 1741416968920 XXXX 1741416968920, Thread 30646: XXXX 1741416968920, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968920 XXXX 1741416968920, Thread 30646: XXXX 1741416968920, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968920 XXXX 1741416968920, Thread 30646: XXXX 1741416968920, Entering Thread 30646: Commands::runScriptWithDownload, script name = WriteEmu32  
+30646 1741416968922 XXXX 1741416968922, Thread 30646: XXXX 1741416968922, Exiting Thread 30646: Commands::runScriptWithDownload(WriteEmu32)  
+30646 1741416968922 XXXX 1741416968922, Thread 30646: XXXX 1741416968922, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu8  
+30646 1741416968922 XXXX 1741416968922, Thread 30646: XXXX 1741416968922, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30646 1741416968923 XXXX 1741416968923, Thread 30646: XXXX 1741416968923, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968923 XXXX 1741416968923, Thread 30646: XXXX 1741416968923, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968923 ExecuteFunCall.call read_device_id
+30646 1741416968923 XXXX 1741416968923, Thread 30646: XXXX 1741416968923, Entering Thread 30646: Commands::runScriptWithUpload, script name = ReadEmu32  
+30646 1741416968923 XXXX 1741416968923, Thread 30646: XXXX 1741416968923, Entering Thread 30646: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+30646 1741416968926 XXXX 1741416968926, Thread 30646: XXXX 1741416968926, Exiting Thread 30646: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30646 1741416968926 XXXX 1741416968926, Thread 30646: XXXX 1741416968926, Exiting Thread 30646: Commands::runScriptWithUpload  
+30646 1741416968926 ExecuteFunCall.call end_of_operations
+30646 1741416968926 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetTargetIDInfo
+30646 1741416968926 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968926 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A TargetIDInfo: Values:
+30646 1741416968926 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A TargetIDInfo: DeviceID = 20840105
+30646 1741416968926 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30646 1741416968927 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Pre:SendOperation
+30646 1741416968927 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload
+30646 1741416968927 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A OperationInfo: Values:
+30646 1741416968927 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A OperationInfo: Type = releasefromreset, Mask = 00000000, Erase = false, Production Mode = true
+30646 1741416968927 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968927 ExecuteFunCall.call release_from_reset
+30646 1741416968927 XXXX 1741416968927, Thread 30646: XXXX 1741416968927, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968929 XXXX 1741416968929, Thread 30646: XXXX 1741416968929, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968929 XXXX 1741416968929, Thread 30646: XXXX 1741416968929, Entering Thread 30646: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30646 1741416968931 XXXX 1741416968931, Thread 30646: XXXX 1741416968931, Exiting Thread 30646: Commands::runScriptBasic  
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Post:SendOperation
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A None
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return End
+30646 1741416968931 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
+
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30646 1741416968931 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30646 1741416968938 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetFirmwareInfo
+30646 1741416968938 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30646 1741416968938 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: Values:
+30646 1741416968938 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: boot = false, bootVer = 00.00.10, apVer = 02.01.38, fpgaVer = ff.ff.ff, scriptVer = 00.06.71, macAddress = 0504983777653805051484856485350, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = 020026702RYN013643, appCommitID = null, scriptCommitID = 74cdf38a4d, PCB_ID = 2
+30646 1741416968938 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+30646 1741416968938 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@5517512e
+30646 1741416968938 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30646 1741416968938 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30646 1741416968989 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+30646 1741416968989 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+30646 1741416968989 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+30646 1741416968989 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+30660 1741416972150 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+30660 1741416972150 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30660 1741416972150 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+30660 1741416972150 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30660 1741416972151 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool.Connect() returned MPLABCOMM_NO_ERROR
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:Attaching to MPLABCommTool plugnplay
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@646cb518
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@646cb518
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30660 1741416972151 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [9035], CommPnPCriteria.cSerialNumber = 020026702ryn013643
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:init
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: Values:
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: pcAddress = 7fffffffffffffff, Vpp = 3.30, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = ATSAML10D14A, programmerType = NVMCTRL_U2207
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: MemInfo values:
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00000000, endAddr = 20000fff, rowSize = 0100, rowEraseSize = 0100, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804000, endAddr = 0080c0ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804008, endAddr = 008040ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0100, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 40000000, endAddr = e000efff, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = true, startAddr = 00400000, endAddr = 004007fe, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 7fffffff, exists = true, startAddr = 41002018, endAddr = 4100201b, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: CfgRequiredBitsMask Values:
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804000, Mask = fe00ffb8
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804004, Mask = 000003ff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c004, Mask = 000000ff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c040, Mask = ffffffff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c044, Mask = ffffffff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c048, Mask = ffffffff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c04c, Mask = ffffffff
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: Values:
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@cc306916, ToolFlavor = PIC32C
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:init
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A none
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4DebugInterface
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.DebugImplWithAtmelIceHelp@69c1ca2a
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ProgramInterface
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ProgramImpl@108587a5
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ConnectInterface
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ICD4TrapCallDeviceIDCommunicationsImpl@11c034d8
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ControllerDiagnosticsInterface
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.atmelice.implementations.UnimplementedDiagnostics@4141d8be
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A ProgrammerToGo
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Status
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30660 1741416972169 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972171 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:EstablishCommunincations
+30660 1741416972171 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972171 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A com.microchip.mplab.mdbcore.PK5Tool.PK5Com@6e94de68
+30660 1741416972171 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972171 ExecuteFunCall.call debug_write_supports_flash
+30660 1741416972171 ExecuteFunCall.call begin_communication_session
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:EstablishCommunincations
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A true
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30660 1741416972172 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972179 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetFirmwareInfo
+30660 1741416972179 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972179 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: Values:
+30660 1741416972179 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: boot = false, bootVer = 00.00.10, apVer = 02.01.38, fpgaVer = ff.ff.ff, scriptVer = 00.06.71, macAddress = 0504983777653805051484856485350, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = 020026702RYN013643, appCommitID = null, scriptCommitID = 74cdf38a4d, PCB_ID = 2
+30660 1741416972179 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+30660 1741416972179 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+30660 1741416972179 GEN4_CONNECT_DIAGNOSTICS:Created FirmwareUpdateHandler com.microchip.mplab.mdbcore.PK5Tool.PK5FirmwareUpdateHandler@52772699
+30660 1741416972179 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+30660 1741416972179 GEN4_CONNECT_DIAGNOSTICS:Parsing file  for firmware updates
+30660 1741416972179 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:Jame file line = app.hex,020138
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:Jame file line = boot.hex,000010
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:Jame file line = scripts.xml,000671
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:Selected firmware version for Boot = 00.00.10
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:Selected firmware version for ap = 02.01.38
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.ri4ParseSelectedVersionsFromJamFile()
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.GetUpdateInfo()
+30660 1741416972180 GEN4_CONNECT_DIAGNOSTICS:ENTERING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.updateRI4ToolsFirmware(FirmwareInfo, UpdateMessage)
+30660 1741416972181 GEN4_CONNECT_DIAGNOSTICS:appNeedsUpdate returned false
+30660 1741416972181 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.FirmwareUpdateHandler.updateRI4ToolsFirmware(FirmwareInfo, UpdateMessage)
+30660 1741416972181 GEN4_CONNECT_DIAGNOSTICS:EXITING: com.microchip.mplab.mdbcore.RI4Tool.ConnectionHandler.CheckForFWUpdates()
+
+30660 1741416972181 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetPowerInfo
+30660 1741416972181 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972181 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: Values:
+30660 1741416972181 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: shotDownSystem = false, isToolPower = true, voltage = 3.250000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+30660 1741416972181 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972181 XXXX 1741416972181, Thread 30660: XXXX 1741416972181, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
+30660 1741416972181 XXXX 1741416972181, Thread 30660: XXXX 1741416972181, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972181 XXXX 1741416972181, Thread 30660: XXXX 1741416972181, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x46, ...  
+30660 1741416972182 XXXX 1741416972182, Thread 30660: XXXX 1741416972182, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972182 XXXX 1741416972182, Thread 30660: XXXX 1741416972182, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x44, ...  
+30660 1741416972194 XXXX 1741416972194, Thread 30660: XXXX 1741416972194, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972194 XXXX 1741416972194, Thread 30660: XXXX 1741416972194, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x40, ...  
+30660 1741416972372 XXXX 1741416972372, Thread 30660: XXXX 1741416972372, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972372 XXXX 1741416972372, Thread 30660: XXXX 1741416972372, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x47, ...  
+30660 1741416972376 XXXX 1741416972376, Thread 30660: XXXX 1741416972376, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetPowerInfo
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetLEDBrightness
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A 5
+30660 1741416972376 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972376 XXXX 1741416972376, Thread 30660: XXXX 1741416972376, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xcf, ...  
+30660 1741416972377 XXXX 1741416972377, Thread 30660: XXXX 1741416972377, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetLEDBrightness
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetToolInfo
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A ToolInfo: Values:
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A ToolInfo: speedLevel = 1, PGCResistance = 4700, PGDResistance = 4700, PGCPullDir = PullDown, PGDPullDir = PullDown, ICSPSelected = Wire2
+30660 1741416972377 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972377 XXXX 1741416972377, Thread 30660: XXXX 1741416972377, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x27, ...  
+30660 1741416972378 XXXX 1741416972378, Thread 30660: XXXX 1741416972378, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972378 XXXX 1741416972378, Thread 30660: XXXX 1741416972378, Entering Thread 30660: Commands::runScriptBasic, script name = SetSpeedFromDevice, timeOut = -1 ms  
+30660 1741416972379 XXXX 1741416972379, Thread 30660: XXXX 1741416972379, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972379 XXXX 1741416972379, Thread 30660: XXXX 1741416972379, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xed, ...  
+30660 1741416972380 XXXX 1741416972380, Thread 30660: XXXX 1741416972380, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972380 XXXX 1741416972380, Thread 30660: XXXX 1741416972380, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x3b, ...  
+30660 1741416972382 XXXX 1741416972382, Thread 30660: XXXX 1741416972382, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972382 XXXX 1741416972382, Thread 30660: XXXX 1741416972382, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xd4, ...  
+30660 1741416972382 XXXX 1741416972382, Thread 30660: XXXX 1741416972382, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972382 XXXX 1741416972382, Thread 30660: XXXX 1741416972382, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xcd, ...  
+30660 1741416972384 XXXX 1741416972384, Thread 30660: XXXX 1741416972384, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972384 XXXX 1741416972384, Thread 30660: XXXX 1741416972384, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xce, ...  
+30660 1741416972385 XXXX 1741416972385, Thread 30660: XXXX 1741416972385, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972385 XXXX 1741416972385, Thread 30660: XXXX 1741416972385, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xcd, ...  
+30660 1741416972386 XXXX 1741416972386, Thread 30660: XXXX 1741416972386, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972386 XXXX 1741416972386, Thread 30660: XXXX 1741416972386, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0xce, ...  
+30660 1741416972387 XXXX 1741416972387, Thread 30660: XXXX 1741416972387, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetToolInfo
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetTargetIDInfo
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30660 1741416972387 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972387 ExecuteFunCall.call begin_programming_operation
+30660 1741416972387 XXXX 1741416972387, Thread 30660: XXXX 1741416972387, Entering Thread 30660: Commands::runScriptBasic, script name = InitSWD, timeOut = -1 ms  
+30660 1741416972401 XXXX 1741416972401, Thread 30660: XXXX 1741416972401, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972401 XXXX 1741416972401, Thread 30660: XXXX 1741416972401, Entering Thread 30660: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30660 1741416972403 XXXX 1741416972403, Thread 30660: XXXX 1741416972403, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972404 XXXX 1741416972404, Thread 30660: XXXX 1741416972404, Entering Thread 30660: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30660 1741416972405 XXXX 1741416972405, Thread 30660: XXXX 1741416972405, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972405 XXXX 1741416972405, Thread 30660: XXXX 1741416972405, Entering Thread 30660: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30660 1741416972407 XXXX 1741416972407, Thread 30660: XXXX 1741416972407, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972407 XXXX 1741416972407, Thread 30660: XXXX 1741416972407, Entering Thread 30660: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30660 1741416972409 XXXX 1741416972409, Thread 30660: XXXX 1741416972409, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972421 XXXX 1741416972421, Thread 30660: XXXX 1741416972421, Entering Thread 30660: Commands::runScriptBasic, script name = InitSWD, timeOut = -1 ms  
+30660 1741416972434 XXXX 1741416972434, Thread 30660: XXXX 1741416972434, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972434 XXXX 1741416972434, Thread 30660: XXXX 1741416972434, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu8  
+30660 1741416972434 XXXX 1741416972434, Thread 30660: XXXX 1741416972434, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30660 1741416972436 XXXX 1741416972436, Thread 30660: XXXX 1741416972436, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972436 XXXX 1741416972436, Thread 30660: XXXX 1741416972436, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972436 XXXX 1741416972436, Thread 30660: XXXX 1741416972436, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu8  
+30660 1741416972436 XXXX 1741416972436, Thread 30660: XXXX 1741416972436, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30660 1741416972438 XXXX 1741416972438, Thread 30660: XXXX 1741416972438, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972438 XXXX 1741416972438, Thread 30660: XXXX 1741416972438, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972438 XXXX 1741416972438, Thread 30660: XXXX 1741416972438, Entering Thread 30660: Commands::runScriptWithDownload, script name = WriteEmu8  
+30660 1741416972440 XXXX 1741416972440, Thread 30660: XXXX 1741416972440, Exiting Thread 30660: Commands::runScriptWithDownload(WriteEmu8)  
+30660 1741416972446 XXXX 1741416972446, Thread 30660: XXXX 1741416972446, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu8  
+30660 1741416972446 XXXX 1741416972446, Thread 30660: XXXX 1741416972446, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30660 1741416972448 XXXX 1741416972448, Thread 30660: XXXX 1741416972448, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972448 XXXX 1741416972448, Thread 30660: XXXX 1741416972448, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972448 XXXX 1741416972448, Thread 30660: XXXX 1741416972448, Entering Thread 30660: Commands::runScriptWithDownload, script name = WriteEmu32  
+30660 1741416972449 XXXX 1741416972449, Thread 30660: XXXX 1741416972449, Exiting Thread 30660: Commands::runScriptWithDownload(WriteEmu32)  
+30660 1741416972449 XXXX 1741416972449, Thread 30660: XXXX 1741416972449, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu8  
+30660 1741416972449 XXXX 1741416972449, Thread 30660: XXXX 1741416972449, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30660 1741416972452 XXXX 1741416972452, Thread 30660: XXXX 1741416972452, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972452 XXXX 1741416972452, Thread 30660: XXXX 1741416972452, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972452 XXXX 1741416972452, Thread 30660: XXXX 1741416972452, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu32  
+30660 1741416972452 XXXX 1741416972452, Thread 30660: XXXX 1741416972452, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+30660 1741416972454 XXXX 1741416972454, Thread 30660: XXXX 1741416972454, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972454 XXXX 1741416972454, Thread 30660: XXXX 1741416972454, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972454 XXXX 1741416972454, Thread 30660: XXXX 1741416972454, Entering Thread 30660: Commands::runScriptWithDownload, script name = WriteEmu32  
+30660 1741416972456 XXXX 1741416972456, Thread 30660: XXXX 1741416972456, Exiting Thread 30660: Commands::runScriptWithDownload(WriteEmu32)  
+30660 1741416972456 XXXX 1741416972456, Thread 30660: XXXX 1741416972456, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu8  
+30660 1741416972456 XXXX 1741416972456, Thread 30660: XXXX 1741416972456, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x1 bytes long  
+30660 1741416972457 XXXX 1741416972457, Thread 30660: XXXX 1741416972457, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972457 XXXX 1741416972457, Thread 30660: XXXX 1741416972457, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972458 ExecuteFunCall.call read_device_id
+30660 1741416972458 XXXX 1741416972458, Thread 30660: XXXX 1741416972458, Entering Thread 30660: Commands::runScriptWithUpload, script name = ReadEmu32  
+30660 1741416972458 XXXX 1741416972458, Thread 30660: XXXX 1741416972458, Entering Thread 30660: ToolCommUsb::readTransfer, sideData is 0x11 bytes long, transferDataLength is 0x4 bytes long  
+30660 1741416972459 XXXX 1741416972459, Thread 30660: XXXX 1741416972459, Exiting Thread 30660: ToolCommUsb::readTransfer,  cr.status = 0x0  
+30660 1741416972459 XXXX 1741416972459, Thread 30660: XXXX 1741416972459, Exiting Thread 30660: Commands::runScriptWithUpload  
+30660 1741416972459 ExecuteFunCall.call end_of_operations
+30660 1741416972459 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetTargetIDInfo
+30660 1741416972459 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972459 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A TargetIDInfo: Values:
+30660 1741416972459 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A TargetIDInfo: DeviceID = 20840105
+30660 1741416972459 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972460 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Pre:SendOperation
+30660 1741416972460 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload
+30660 1741416972460 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A OperationInfo: Values:
+30660 1741416972460 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A OperationInfo: Type = holdinreset, Mask = 00000000, Erase = false, Production Mode = true
+30660 1741416972460 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972460 ExecuteFunCall.call hold_in_reset
+30660 1741416972460 XXXX 1741416972460, Thread 30660: XXXX 1741416972460, Entering Thread 30660: Commands::runScriptBasic, script name = DAP_SWJ_Pins, timeOut = -1 ms  
+30660 1741416972463 XXXX 1741416972463, Thread 30660: XXXX 1741416972463, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Post:SendOperation
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A None
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_PROGRAM_INT_LOG_ATSAML10D14A Return End
+30660 1741416972463 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is null
+
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30660 1741416972463 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:GetFirmwareInfo
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: Values:
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A FirmwareInfo: boot = false, bootVer = 00.00.10, apVer = 02.01.38, fpgaVer = ff.ff.ff, scriptVer = 00.06.71, macAddress = 0504983777653805051484856485350, devID = a1020e01, devID1 = 2, devSN0 = ffffffff, devSN1 = ffffffff, serialNumber = 020026702RYN013643, appCommitID = null, scriptCommitID = 74cdf38a4d, PCB_ID = 2
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:SetPowerInfo
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: Values:
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A PowerInfo: shotDownSystem = true, isToolPower = false, voltage = 0.000000, useVppFirst = false, useLowVoltageProgramming = true, useMaintainActivePower = false
+30660 1741416972470 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30660 1741416972470 XXXX 1741416972470, Thread 30660: XXXX 1741416972470, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x39, ...  
+30660 1741416972470 XXXX 1741416972470, Thread 30660: XXXX 1741416972470, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972470 XXXX 1741416972470, Thread 30660: XXXX 1741416972470, Entering Thread 30660: Commands::runScriptBasic with script contents. contents[0] = 0x44, ...  
+30660 1741416972483 XXXX 1741416972483, Thread 30660: XXXX 1741416972483, Exiting Thread 30660: Commands::runScriptBasic  
+30660 1741416972483 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:SetPowerInfo
+30660 1741416972483 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30660 1741416972483 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A none
+30660 1741416972483 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+30660 1741416972483 GEN4_CONNECT_DIAGNOSTICS:Removing plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@646cb518
+30660 1741416972483 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30660 1741416972483 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30660 1741416972533 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.Disconnect
+30660 1741416972533 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Detach to remove tool from plug and play list
+30660 1741416972533 GEN4_CONNECT_DIAGNOSTICS:Calling RIDbgToolCom.DisconnectFromMPlabComm
+30660 1741416972533 GEN4_CONNECT_DIAGNOSTICS:Calling MPLABCommTool.Disconnect
+30815 1741441289613 GEN4_CONNECT_DIAGNOSTICS:MPLABCommTool is NOT null
+30815 1741441289613 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30815 1741441289613 GEN4_CONNECT_DIAGNOSTICS:transport type = USB
+30815 1741441289613 GEN4_CONNECT_DIAGNOSTICS:AttachedToolPID = 9036, AttachedToolVID = 4d8
+30815 1741441289614 com.microchip.mplab.mdbcore.RealICETool.RIDbgToolCom
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:Before MPLABCommTool.Connect()
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:After MPLABCommTool.Connect()
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:Adding new plug and play observer com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@92e81bb
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:Begin PlugNPlayObservers list dump:
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:com.microchip.mplab.mdbcore.RI4Tool.RI4ToolBase$RI4PlugNPlayObserver@92e81bb
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:End PlugNPlayObservers list dump:
+30815 1741441289614 GEN4_CONNECT_DIAGNOSTICS:Registering for alternate PNP notifications. CommPnPCriteria.cPIDList = [9035], CommPnPCriteria.cSerialNumber = 020026702ryn013643
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:init
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: Values:
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: pcAddress = 7fffffffffffffff, Vpp = 3.30, useRowEraseIfVoltageIsLow = false, voltageBelowWhichUseRowErase = 0.00, deviceName = ATSAML10D14A, programmerType = NVMCTRL_U2207
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: MemInfo values:
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00000000, endAddr = 20000fff, rowSize = 0100, rowEraseSize = 0100, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804000, endAddr = 0080c0ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 00804008, endAddr = 008040ff, rowSize = 0100, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0100, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = ffffffff, exists = true, startAddr = 40000000, endAddr = e000efff, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = true, startAddr = 00400000, endAddr = 004007fe, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0004, widthProgram = 0004
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 7fffffff, exists = true, startAddr = 41002018, endAddr = 4100201b, rowSize = 0001, rowEraseSize = 0000, addrInc = 0001, widthProgram = 0001
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: mask = 0000, exists = false, startAddr = 00000000, endAddr = 00000000, rowSize = 0000, rowEraseSize = 0000, addrInc = 0000, widthProgram = 0000
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A DeviceInfo: CfgRequiredBitsMask Values:
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804000, Mask = fe00ffb8
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 00804004, Mask = 000003ff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c004, Mask = 000000ff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c040, Mask = ffffffff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c044, Mask = ffffffff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c048, Mask = ffffffff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Address = 0080c04c, Mask = ffffffff
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: Values:
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A BasicInfo: InputStream = com.microchip.mplab.libs.toolpacksupport.EquatableFileInputStream@cc306916, ToolFlavor = PIC32C
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:init
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A none
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4DebugInterface
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.DebugImplWithAtmelIceHelp@7149e592
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ProgramInterface
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ProgramImpl@262dfa99
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ConnectInterface
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.scriptbasedcontroller.implementations.ICD4TrapCallDeviceIDCommunicationsImpl@5bf394be
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A RI4ControllerDiagnosticsInterface
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A com.microchip.mplab.libs.atmelice.implementations.UnimplementedDiagnostics@3debdbd5
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A ProgrammerToGo
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Pre:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Status
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Post:GetInterfaceProvider
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A null
+30815 1741441289634 GEN4_TO_CONTROLLER_LOG:GEN4_INIT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289637 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:EstablishCommunincations
+30815 1741441289637 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289637 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A com.microchip.mplab.mdbcore.PK5Tool.PK5Com@4aa3b210
+30815 1741441289637 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289639 ExecuteFunCall.call debug_write_supports_flash
+30815 1741441289639 ExecuteFunCall.call begin_communication_session
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Post:EstablishCommunincations
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return Value
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A true
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Return End
+
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Pre:GetFirmwareInfo
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A null
+30815 1741441289641 GEN4_TO_CONTROLLER_LOG:GEN4_CONNECT_INT_LOG_ATSAML10D14A Payload End
+30815 1741441289643 XXXX 1741441289643, Thread 30815: com.Send returned false 
+30815 1741441289643 XXXX 1741441289643, Thread 30815: execCommand: exception after writeSideChanel null 

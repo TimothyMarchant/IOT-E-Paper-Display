@@ -21,22 +21,31 @@ volatile unsigned short packetlength=0;
 volatile unsigned short packetpointer=0;
 volatile unsigned char* Packet;
 volatile unsigned char QueueMode=0;
+volatile unsigned char Repeatedsendmode=0;
 volatile unsigned int currentCS=0;
 static inline void Disableinterrupts(void);
 void SPI_Queue_Callback(void);
 volatile void SPI_End(const volatile unsigned char pin);
-volatile unsigned char cansend=0;
+void SPI_Queue_Callback();
 void __attribute__((interrupt)) SERCOM0_0_Handler(void){
     if (SPI.SERCOM_INTFLAG&DRE){
-            //clears interrupt flag
+        if (!QueueMode&&Repeatedsendmode){
+        //clears interrupt flag
         DataREG|=(*(Packet+packetpointer));
-        packetpointer++;
         
+        }
+        //meant for usage with SERCOM1
+        else if (QueueMode){
+            SPI_Queue_Callback();
+        }
+        //for repeated sending.  There are a few use cases for this
+        else {
+            DataREG|=*Packet;
+        }
+        packetpointer++;
     }
     //end SPI
     if (packetpointer==packetlength){
-        packetpointer=0;
-        packetlength=0;
         //clear interrupt enable bit
         SPI.SERCOM_INTENCLR|=DRE;
         //blocking wait for last byte; should be very short
@@ -45,17 +54,15 @@ void __attribute__((interrupt)) SERCOM0_0_Handler(void){
     }
 }
 void InitSPI(const unsigned char baudrate){
-    //using SSOP24 package
+    //using SSOP24 package.  Enable pins for SERCOM0
     pinmuxconfig(2,GROUPD); //pad[2] PA2 pin 7
     pinmuxconfig(3,GROUPD); //pad[3] PA3 pin 8
     pinmuxconfig(4,GROUPD); //pad[0] PA4 pin 9
     pinmuxconfig(5,GROUPD); //pad[1] PA5 pin 10
-    
     //enable SERCOM0
     GCLKSERCOM0|=GCLKPERDefaultMask;
     SPI.SERCOM_BAUD=baudrate;
     SPI.SERCOM_CTRLB=CTRLBRegisterSettings;
-    
     SPI.SERCOM_CTRLA=CTRLARegisterMask;
     NVIC_SetPriority(SERCOM0_0_IRQn,3);
     
@@ -81,20 +88,30 @@ volatile void SPI_Start(const volatile unsigned char pin,const volatile unsigned
     Packet=givenPacket;
     Enableinterrupts();
 }
+//might be removed
 void SPI_Start_Queue_Packet(const volatile unsigned pin,volatile Queue* queue){
     currentCS=pin;
     QueueMode=1;
 }
-//for packets of unknown length, or sending packets of very small length.
+//for packets of unknown length, or sending packets of very small length.  Use blocking write function
 void SPI_Start_Unknown_Packet(const volatile unsigned char pin){
     currentCS=pin;
     pinwrite(pin,LOW);
-    
 }
+//For writing the same value repeatedly. There is a legitimate use case for this.
+void SPI_Start_Repeated(const volatile unsigned char pin,const volatile unsigned short length,unsigned char data){
+    Repeatedsendmode=1;
+    SPI_Start(pin,length,&data);
+}
+//We are done transferring
 volatile void SPI_End(const volatile unsigned char pin){
     Disableinterrupts();
     currentCS=0x00;
     pinwrite(pin,HIGH);
+    QueueMode=0;
+    Repeatedsendmode=0;
+    packetpointer=0;
+    packetlength=0;
 }
 //this write method uses a blocking loop until we can write again.  For testing purposes mostly or small amount of writes
 void SPI_Write_Blocking(unsigned char data){
