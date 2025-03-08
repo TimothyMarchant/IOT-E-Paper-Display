@@ -1,4 +1,4 @@
-build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
+build/default/debug/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
  ../src/config/default/definitions.h \
  ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/device.h \

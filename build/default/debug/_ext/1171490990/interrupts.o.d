@@ -1,5 +1,7 @@
-build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
- ../src/config/default/definitions.h \
+build/default/debug/_ext/1171490990/interrupts.o: \
+ ../src/config/default/interrupts.c \
+ ../src/config/default/device_vectors.h \
+ ../src/config/default/interrupts.h ../src/config/default/definitions.h \
  ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/device.h \
  ../src/packs/ATSAML10D14A_DFP/saml10d14a.h \
@@ -77,7 +79,11 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
  ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h CircularQueue.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h
+
+../src/config/default/device_vectors.h:
+
+../src/config/default/interrupts.h:
 
 ../src/config/default/definitions.h:
 
@@ -238,7 +244,3 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
-
-GPIO.h:
-
-CircularQueue.h:

@@ -1,4 +1,5 @@
-build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
+build/default/debug/_ext/1171490990/exceptions.o: \
+ ../src/config/default/exceptions.c ../src/config/default/interrupts.h \
  ../src/config/default/definitions.h \
  ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
  ../src/config/default/device.h \
@@ -77,7 +78,9 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
  ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h CircularQueue.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h
+
+../src/config/default/interrupts.h:
 
 ../src/config/default/definitions.h:
 
@@ -238,7 +241,3 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
-
-GPIO.h:
-
-CircularQueue.h:

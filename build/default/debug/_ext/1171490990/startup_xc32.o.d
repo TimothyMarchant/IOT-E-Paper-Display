@@ -1,7 +1,5 @@
-build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
- ../src/config/default/definitions.h \
- ../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h \
- ../src/config/default/device.h \
+build/default/debug/_ext/1171490990/startup_xc32.o: \
+ ../src/config/default/startup_xc32.c ../src/config/default/device.h \
  ../src/packs/ATSAML10D14A_DFP/saml10d14a.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h \
@@ -70,18 +68,10 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
  ../src/packs/ATSAML10D14A_DFP/instance/trng.h \
  ../src/packs/ATSAML10D14A_DFP/instance/wdt.h \
  ../src/packs/ATSAML10D14A_DFP/pio/saml10d14a.h \
- ../src/config/default/device_cache.h ../src/config/default/device.h \
+ ../src/config/default/device_cache.h \
  ../src/config/default/toolchain_specifics.h \
  ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h \
- ../src/config/default/peripheral/evsys/plib_evsys.h \
- ../src/config/default/peripheral/pm/plib_pm.h \
- ../src/config/default/peripheral/port/plib_port.h \
- ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h CircularQueue.h
-
-../src/config/default/definitions.h:
-
-../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h:
+ ../src/config/default/interrupts.h
 
 ../src/config/default/device.h:
 
@@ -223,22 +213,8 @@ build/default/production/SERCOM0_Methods_SPI.o: SERCOM0_Methods_SPI.c \
 
 ../src/config/default/device_cache.h:
 
-../src/config/default/device.h:
-
 ../src/config/default/toolchain_specifics.h:
 
 ../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h:
 
-../src/config/default/peripheral/evsys/plib_evsys.h:
-
-../src/config/default/peripheral/pm/plib_pm.h:
-
-../src/config/default/peripheral/port/plib_port.h:
-
-../src/config/default/peripheral/clock/plib_clock.h:
-
-../src/config/default/peripheral/nvic/plib_nvic.h:
-
-GPIO.h:
-
-CircularQueue.h:
+../src/config/default/interrupts.h:

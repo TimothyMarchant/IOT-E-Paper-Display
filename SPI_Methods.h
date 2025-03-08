@@ -1,23 +1,11 @@
-/* 
- * File:   SPI_Methods.h
- * Author: Timothy Marchant
- *
- * Created on March 7, 2025, 2:37 PM
- */
-
-#ifndef SPI_METHODS_H
-#define	SPI_METHODS_H
-
-#ifdef	__cplusplus
-extern "C" {
+#ifndef SPI_Methods_h
+#define SPI_Methods_h
+void InitSPI(const unsigned char baudrate);
+void EnableSPI(void);
+void DisableSPI(void);
+void SPI_Start(const volatile unsigned char pin,const volatile unsigned short length,unsigned char* givenPacket);
+void SPI_Start_Queue_Packet(const volatile unsigned pin,volatile Queue* queue);
+void SPI_Start_Unknown_Packet(const volatile unsigned char pin);
+volatile void SPI_End(const volatile unsigned char pin);
+void SPI_Write_Blocking(unsigned char data);
 #endif
-
-
-
-
-#ifdef	__cplusplus
-}
-#endif
-
-#endif	/* SPI_METHODS_H */
-

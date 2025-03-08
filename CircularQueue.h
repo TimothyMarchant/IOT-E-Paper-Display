@@ -7,7 +7,7 @@ typedef struct CircularQueue{
     unsigned char totalqueued;
 }Queue;
 //share this queue among SERCOM0 and SERCOM1
-Queue SER_queue={0,0,{},QueueDefaultSize,0};
-unsigned char Dequeue(void);
-void Enqueue(unsigned char data);
-unsigned char Peak(void);
+
+unsigned char Dequeue(Queue* queue);
+void Enqueue(unsigned char data,Queue* queue);
+unsigned char Peak(Queue* queue);
