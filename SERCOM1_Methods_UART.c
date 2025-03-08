@@ -26,6 +26,7 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
             packetpointerR = 0;
 
         } else {
+            while (!(UART.SERCOM_INTFLAG&0x01));
             datatoread[packetpointerR] = UART.SERCOM_DATA;
             packetpointerR++;
         }
@@ -36,7 +37,8 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
             packetpointerT = 0;
 
         } else {
-            UART.SERCOM_DATA |= *(transmissionpacket + packetpointerT);
+            while (!(UART.SERCOM_INTFLAG&0x01));
+            UART.SERCOM_DATA = *(transmissionpacket + packetpointerT);
             packetpointerT++;
         }
     }
@@ -45,8 +47,8 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
 void InitUART(void) {
     //activate peripherial
     GCLK_REGS->GCLK_PCHCTRL[12] = 0x40;
-    pinmuxconfig(PORT_PA00,GROUPD);
-    pinmuxconfig(PORT_PA01,GROUPD);
+    pinmuxconfig(0,GROUPD);
+    pinmuxconfig(1,GROUPD);
     UART.SERCOM_BAUD = requiredbaudvalue;
     UART.SERCOM_CTRLA = CTRLAmask;
     UART.SERCOM_CTRLB = CTRLBmask;
@@ -65,12 +67,12 @@ void EndUART(void) {
 }
 
 void Enableinterrupt(void) {
-    UART.SERCOM_INTENSET |= 0x06;
+    UART.SERCOM_INTENSET = 0x06;
     NVIC_EnableIRQ(SERCOM1_1_IRQn);
 }
 
 void Disableinterrupt(void) {
-    UART.SERCOM_INTENCLR |= 0x06;
+    UART.SERCOM_INTENCLR = 0x06;
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
 }
 

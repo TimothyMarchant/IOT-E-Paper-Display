@@ -22,10 +22,10 @@ void Init_IO(void){
 }
 void configpin(const volatile unsigned int pin,const unsigned char type){
     if (type){
-        PA.PORT_DIRCLR|=pin;
+        PA.PORT_DIRCLR=pin;
     }
     else {
-        PA.PORT_DIRSET|=pin;
+        PA.PORT_DIRSET=pin;
     }
 }
 void pinwrite(const volatile unsigned int pin,const unsigned char level){
