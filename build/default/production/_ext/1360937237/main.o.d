@@ -14,7 +14,8 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/GPIO.h \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/CircularQueue.h \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/Timer0_Methods.h \
- ../src/../E_Paper_IOT_Proof_Of_Concept.X/SPI_Methods.h
+ ../src/../E_Paper_IOT_Proof_Of_Concept.X/SPI_Methods.h \
+ ../src/../E_Paper_IOT_Proof_Of_Concept.X/UART_Methods.h
 
 ../src/config/default/definitions.h:
 
@@ -49,3 +50,5 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 ../src/../E_Paper_IOT_Proof_Of_Concept.X/Timer0_Methods.h:
 
 ../src/../E_Paper_IOT_Proof_Of_Concept.X/SPI_Methods.h:
+
+../src/../E_Paper_IOT_Proof_Of_Concept.X/UART_Methods.h:
