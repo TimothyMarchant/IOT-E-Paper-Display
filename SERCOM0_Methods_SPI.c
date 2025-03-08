@@ -13,7 +13,7 @@
 #define Transmit_Complete 0x02
 #define DRE 0x01
 #define GCLKPERDefaultMask 0x40
-#define CTRLARegisterMask 0x1030008E
+#define CTRLARegisterMask 0x1030008C
 #define Success 1
 #define Failure 0
 volatile unsigned char databuffer=0x00;
@@ -28,11 +28,9 @@ volatile void SPI_End(const volatile unsigned char pin);
 volatile unsigned char cansend=0;
 void __attribute__((interrupt)) SERCOM0_0_Handler(void){
     if (SPI.SERCOM_INTFLAG&DRE){
-        if (!QueueMode){
             //clears interrupt flag
         DataREG|=(*(Packet+packetpointer));
         packetpointer++;
-        }
         
     }
     //end SPI
@@ -69,11 +67,11 @@ void DisableSPI(void){
     SPI.SERCOM_CTRLA&=~(0x02);
 }
 static inline void Enableinterrupts(void){
-    SPI.SERCOM_INTENSET|=DRE|Transmit_Complete;
+    SPI.SERCOM_INTENSET|=DRE;
     NVIC_EnableIRQ(SERCOM0_0_IRQn);
 }
 static inline void Disableinterrupts(void){
-    SPI.SERCOM_INTENCLR|=DRE|Transmit_Complete;
+    SPI.SERCOM_INTENCLR|=DRE;
     NVIC_DisableIRQ(SERCOM0_0_IRQn);
 }
 volatile void SPI_Start(const volatile unsigned char pin,const volatile unsigned short length,unsigned char* givenPacket){
