@@ -55,12 +55,12 @@ void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
 
 void InitSPI(const unsigned char baudrate) {
     //using SSOP24 package.  Enable pins for SERCOM0
-    pinmuxconfig(2, GROUPD); //pad[2] PA2 pin 7
-    pinmuxconfig(3, GROUPD); //pad[3] PA3 pin 8
-    pinmuxconfig(4, GROUPD); //pad[0] PA4 pin 9
-    pinmuxconfig(5, GROUPD); //pad[1] PA5 pin 10
+    //pinmuxconfig(2, GROUPD); //pad[2] PA2 pin 7 not needed for transmission kept for reference
+    //pinmuxconfig(3, GROUPD); //pad[3] PA3 pin 8 not needed for transmission kept for reference
+    pinmuxconfig(4, GROUPD); //pad[0] PA4 pin 9 with current settings MOSI
+    pinmuxconfig(5, GROUPD); //pad[1] PA5 pin 10 with current settings clock line
     //enable SERCOM0
-    GCLKSERCOM0 |= GCLKPERDefaultMask;
+    GCLKSERCOM0 = GCLKPERDefaultMask;
     SPI.SERCOM_BAUD = baudrate;
     SPI.SERCOM_CTRLB = CTRLBRegisterSettings;
     SPI.SERCOM_CTRLA = CTRLARegisterMask;
@@ -75,7 +75,7 @@ void EnableSPI(void) {
 void DisableSPI(void) {
     SPI.SERCOM_CTRLA &= ~(0x02);
 }
-
+//called by the same function, so use inline (supposedly the compiler should optimize)
 static inline void Enableinterrupts(void) {
     SPI.SERCOM_INTENSET |= DRE;
     NVIC_EnableIRQ(SERCOM0_0_IRQn);
@@ -99,20 +99,17 @@ void SPI_Start_Queue_Packet(const volatile unsigned pin, volatile Queue* queue) 
     currentCS = pin;
     QueueMode = 1;
 }
-//for packets of unknown length, or sending packets of very small length.  Use blocking write function
-
+//for packets of unknown length, or sending packets of very small length.  Use blocking write function (mainly meant for when I don't care enough to define packets)
 void SPI_Start_Unknown_Packet(const volatile unsigned char pin) {
     currentCS = pin;
     pinwrite(pin, LOW);
 }
-//For writing the same value repeatedly. There is a legitimate use case for this.
-
+//For writing the same value repeatedly. There is a legitimate use case for this which will be seen shortly
 void SPI_Start_Repeated(const volatile unsigned char pin, const volatile unsigned short length, unsigned char data) {
     Repeatedsendmode = 1;
     SPI_Start(pin, length, &data);
 }
-//We are done transferring
-
+//We are done transferring use regardless of which start method was chosen
 volatile void SPI_End(const volatile unsigned char pin) {
     Disableinterrupts();
     currentCS = 0x00;

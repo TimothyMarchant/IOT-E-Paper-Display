@@ -10,6 +10,10 @@
 #define UART SERCOM1_REGS->USART_INT
 #define RXC_Flag 0x04
 #define TXC_Flag 0x02
+#define GCLKPERDefaultMask 0x40
+//enable specific interrupts.  These are the ones we want to activate normally
+#define defaultinterrupts 0x06 //RXC and TXC bits
+#define enablebit 0x02
 unsigned char datatoread[50] = {};
 unsigned char* transmissionpacket;
 unsigned short packetlengthT = 0;
@@ -46,7 +50,7 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
 
 void InitUART(void) {
     //activate peripherial
-    GCLK_REGS->GCLK_PCHCTRL[12] = 0x40;
+    GCLK_REGS->GCLK_PCHCTRL[12] = GCLKPERDefaultMask;
     pinmuxconfig(0,GROUPD);
     pinmuxconfig(1,GROUPD);
     UART.SERCOM_BAUD = requiredbaudvalue;
@@ -58,21 +62,21 @@ void InitUART(void) {
 //turn on sercom1
 
 void StartUART(void) {
-    UART.SERCOM_CTRLA |= 0x02;
+    UART.SERCOM_CTRLA |= enablebit;
 }
 //turn off sercom1
 
 void EndUART(void) {
-    UART.SERCOM_CTRLA &= ~(0x02);
+    UART.SERCOM_CTRLA &= ~(enablebit);
 }
 
 void Enableinterrupt(void) {
-    UART.SERCOM_INTENSET = 0x06;
+    UART.SERCOM_INTENSET = defaultinterrupts;
     NVIC_EnableIRQ(SERCOM1_1_IRQn);
 }
 
 void Disableinterrupt(void) {
-    UART.SERCOM_INTENCLR = 0x06;
+    UART.SERCOM_INTENCLR = defaultinterrupts;
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
 }
 
