@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "CircularQueue.h"
 #include "definitions.h"
 #include "SPI_Methods.h"
 #include "GPIO.h"
