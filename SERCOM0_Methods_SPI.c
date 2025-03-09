@@ -32,21 +32,19 @@ void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
     if (SPI.SERCOM_INTFLAG & DRE) {
         if (!QueueMode && Repeatedsendmode) {
             //clears interrupt flag
-            DataREG |= (*(Packet + packetpointer));
+            DataREG = (*(Packet + packetpointer));
 
         }            //meant for usage with SERCOM1
         else if (QueueMode) {
             SPI_Queue_Callback();
         }            //for repeated sending.  There are a few use cases for this
         else {
-            DataREG |= *Packet;
+            DataREG = *Packet;
         }
         packetpointer++;
     }
     //end SPI
     if (packetpointer == packetlength) {
-        //clear interrupt enable bit
-        SPI.SERCOM_INTENCLR |= DRE;
         //blocking wait for last byte; should be very short
         while (!(SPI.SERCOM_INTFLAG & DRE));
         SPI_End(currentCS);
@@ -114,6 +112,7 @@ volatile void SPI_End(const volatile unsigned char pin) {
     Disableinterrupts();
     currentCS = 0x00;
     pinwrite(pin, HIGH);
+    //reset everything
     QueueMode = 0;
     Repeatedsendmode = 0;
     packetpointer = 0;

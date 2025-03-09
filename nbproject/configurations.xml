@@ -194,6 +194,8 @@
       <itemPath>SERCOM0_Methods_SPI.c</itemPath>
       <itemPath>SERCOM1_Methods_UART.c</itemPath>
       <itemPath>CircularQueue.c</itemPath>
+      <itemPath>Pervaise_Display_E_Paper_Drivers.c</itemPath>
+      <itemPath>ESP8266_01S_Methods_UART.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
