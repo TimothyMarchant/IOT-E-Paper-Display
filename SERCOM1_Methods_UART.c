@@ -14,8 +14,8 @@
 //enable specific interrupts.  These are the ones we want to activate normally
 #define defaultinterrupts 0x06 //RXC and TXC bits
 #define enablebit 0x02
-unsigned char datatoread[50] = {};
-unsigned char* transmissionpacket;
+unsigned char* datatoread;
+const unsigned char* transmissionpacket;
 unsigned short packetlengthT = 0;
 unsigned short packetlengthR = 0;
 //transmission pointer
@@ -80,15 +80,16 @@ void Disableinterrupt(void) {
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
 }
 
-void BeginTransmission(unsigned short Tlength, unsigned char* packet, unsigned short Rlength) {
-    transmissionpacket = packet;
+void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket) {
+    transmissionpacket = Tpacket;
+    datatoread=Rpacket;
     packetlengthT = Tlength;
     packetlengthR = Rlength;
     Enableinterrupt();
     if (Rlength==0){
         UART.SERCOM_INTENCLR=0x04;
     }
-    UART.SERCOM_DATA=*packet;
+    UART.SERCOM_DATA=*Tpacket;
     packetpointerT++;
     
     //pins are already configured we simply just need to figure out where to put or interrupt ISR
