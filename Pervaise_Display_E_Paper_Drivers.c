@@ -10,7 +10,7 @@
 #define UART SERCOM1_REGS->USART_INT
 #define RXC 0x04
 //outputs
-#define DC PORT_PA08
+#define DC PORT_PA16
 #define RES PORT_PA14
 //input
 #define Busy PORT_PA15
@@ -45,7 +45,7 @@ void EpaperReadWrite_UART_Callback(unsigned char data){
         //disable interrupt and stop transmission
         if (currentcount==imagelength){
             UART.SERCOM_INTENCLR=RXC;
-            SPI_End();
+            SPI_End(CS);
         }
     }
     if (!isImagedata){
@@ -62,6 +62,8 @@ void Init_Epaper_IO(void){
     configpin(CS,Output);
     configpin(Busy,Input);
     pinwrite(CS,HIGH);
+    pinwrite(DC,HIGH);
+    pinwrite(RES,LOW);
 }
 //Pervaise Displays wants you to stop powering the screen once you are done writing to it, so this would be called more than once.
 //However for this project we will skip that for now.
@@ -71,34 +73,37 @@ void sendcommand(unsigned char CMD){
     pinwrite(DC,HIGH);
 }
 void Init_Screen(void){
-    pinwrite(RES,HIGH);
     delay(5);
+    pinwrite(RES,HIGH);
+    delay(10);
     pinwrite(RES,LOW);
     delay(10);
     pinwrite(RES,HIGH);
     delay(20);
     //wait for busy to go LOW
-    while (pinread(Busy));
+    while (pinread(Busy,14));
     pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     SPI_Write_Blocking(Softreset);
-    while (pinread(Busy));
+    while (pinread(Busy,14));
     SPI_End(CS);
     pinwrite(DC,HIGH);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(TemperatureREG);
     //temperature
-    SPI_Write_Blocking(0x14);
+    SPI_Write_Blocking(0x3C);
+    SPI_End(CS);
+    SPI_Start_Unknown_Packet(CS);
     sendcommand(PanelSetting);
     SPI_Write_Blocking(PanelSettingData);
     SPI_End(CS);
 }
 //testing purposes
-void testsendbuffer(void){
+volatile void testsendbuffer(void){
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM1REG);
     for (unsigned short i=0;i<5000;i++){
-        SPI_Write_Blocking(0x00);
+        SPI_Write_Blocking(0xFF);
     }
     SPI_End(CS);
     SPI_Start_Unknown_Packet(CS);
@@ -108,16 +113,17 @@ void testsendbuffer(void){
     }
     SPI_End(CS);
     //update display
-    while(pinread(Busy));
+    while(pinread(Busy,14));
     SPI_Start_Unknown_Packet(CS);
-    sendcommand(UpdateDisplay);
-    SPI_Start_Unknown_Packet(CS);
-    while(pinread(Busy));
+    sendcommand(0x20);
+    SPI_End(CS);
+    while(pinread(Busy,14));
 }
 void Preparesendforqueue(void){
     
 }
-//send update command
+//send necessary data to update screen
 void updatescreen(void){
-    
+    Init_Screen();
+    testsendbuffer();
 }
