@@ -28,8 +28,13 @@ char* const TCPSENDSTART="AT+CIPSEND="; //send this with the length of the messa
 unsigned char ATResponse[100]={};
 //ensure the device is working by using the AT command
 void Test(void){
-    BeginTransmission(strlen(ATString),ATString,6,ATResponse);
+    BeginTransmission(strlen(ATString),ATString,6,ATResponse,0);
 }
 void TestSend(void){
+    
+}
+ 
+//listen for a packet
+void Listen(unsigned short length){
     
 }

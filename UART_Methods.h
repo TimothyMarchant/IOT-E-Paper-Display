@@ -5,5 +5,6 @@ void StartUART(void);
 void EndUART(void);
 void Enableinterrupt(void);
 void Disableinterrupt(void);
-void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket);
+void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket,unsigned char type);
+void Resetvaliddata(void);
 #endif
