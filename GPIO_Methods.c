@@ -56,7 +56,7 @@ void pinmuxconfig(const unsigned char pinnum,const unsigned char group){
     }
     //enable peripheral functionality
     
-    PA.PORT_PINCFG[pinnum]=0x03;
+    PA.PORT_PINCFG[pinnum]=0x01;
     PA.PORT_PMUX[n]|=mask;
     
 }

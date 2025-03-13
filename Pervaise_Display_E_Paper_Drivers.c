@@ -10,11 +10,11 @@
 #define UART SERCOM1_REGS->USART_INT
 #define RXC 0x04
 //outputs
-#define DC PORT_PA16
-#define RES PORT_PA14
+#define DC PORT_PA15
+#define RES PORT_PA08
 //input
-#define Busy PORT_PA15
-#define CS PORT_PA02
+#define Busy PORT_PA14
+#define CS PORT_PA01
 //I took this from my previous working of this screen
 #define Softreset 0x12
 #define TemperatureREG 0x1A
@@ -58,12 +58,12 @@ void EpaperReadWrite_UART_Callback(unsigned char data){
 //only called once
 void Init_Epaper_IO(void){
     configpin(DC,Output);
-    configpin(RES,Output);
+    configpin(RES,Input);
     configpin(CS,Output);
     configpin(Busy,Input);
     pinwrite(CS,HIGH);
     pinwrite(DC,HIGH);
-    pinwrite(RES,LOW);
+    //pinwrite(RES,LOW);
 }
 //Pervaise Displays wants you to stop powering the screen once you are done writing to it, so this would be called more than once.
 //However for this project we will skip that for now.
@@ -74,6 +74,7 @@ void sendcommand(unsigned char CMD){
 }
 void Init_Screen(void){
     delay(5);
+    configpin(RES,Output);
     pinwrite(RES,HIGH);
     delay(10);
     pinwrite(RES,LOW);
@@ -81,31 +82,37 @@ void Init_Screen(void){
     pinwrite(RES,HIGH);
     delay(20);
     //wait for busy to go LOW
-    while (pinread(Busy,14));
+    while (pinread(Busy,14)>=1);
     pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     SPI_Write_Blocking(Softreset);
-    while (pinread(Busy,14));
-    SPI_End(CS);
     pinwrite(DC,HIGH);
+    SPI_End(CS);
+    while (pinread(Busy,14)>=1);
+    
+    
+    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(TemperatureREG);
     //temperature
-    SPI_Write_Blocking(0x3C);
-    SPI_End(CS);
-    SPI_Start_Unknown_Packet(CS);
+    SPI_Write_Blocking(0x14);
+    //SPI_End(CS);
+    //pinwrite(DC,LOW);
+    //SPI_Start_Unknown_Packet(CS);
     sendcommand(PanelSetting);
     SPI_Write_Blocking(PanelSettingData);
     SPI_End(CS);
 }
 //testing purposes
-volatile void testsendbuffer(void){
+void testsendbuffer(void){
+    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM1REG);
     for (unsigned short i=0;i<5000;i++){
         SPI_Write_Blocking(0xFF);
     }
     SPI_End(CS);
+    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM2REG);
     for (unsigned short i=0;i<5000;i++){
@@ -114,6 +121,7 @@ volatile void testsendbuffer(void){
     SPI_End(CS);
     //update display
     while(pinread(Busy,14));
+    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(0x20);
     SPI_End(CS);
