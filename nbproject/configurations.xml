@@ -33,7 +33,6 @@
           <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/default/interrupts.h</itemPath>
         </logicalFolder>
-        <itemPath>CONFIG.h</itemPath>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
         <logicalFolder name="ATSAML10D14A_DFP"
@@ -135,6 +134,7 @@
       <itemPath>Timer0_Methods.h</itemPath>
       <itemPath>SPI_Methods.h</itemPath>
       <itemPath>UART_Methods.h</itemPath>
+      <itemPath>Delay.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -196,6 +196,7 @@
       <itemPath>CircularQueue.c</itemPath>
       <itemPath>Pervaise_Display_E_Paper_Drivers.c</itemPath>
       <itemPath>ESP8266_01S_Methods_UART.c</itemPath>
+      <itemPath>Delay.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -255,8 +256,8 @@
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
-        <property key="make-warnings-into-errors" value="true"/>
-        <property key="optimization-level" value="-O2"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
         <property key="place-data-into-section" value="true"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>

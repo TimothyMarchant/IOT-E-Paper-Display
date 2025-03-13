@@ -22,8 +22,26 @@ unsigned short packetlengthR = 0;
 volatile unsigned short packetpointerT = 0;
 //receiving pointer
 volatile unsigned short packetpointerR = 0;
-
+unsigned char IsTransferingToSPI=0;
+unsigned char validdata=0;
+void UARTSPI_Callback(unsigned char);
+//meant to be called from other files
+void Resetvaliddata(void){
+    validdata=0;
+}
 void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
+    if (IsTransferingToSPI){
+        unsigned char data=UART.SERCOM_DATA;
+        if (validdata){
+        UARTSPI_Callback(data);
+        }
+        else {
+            if (data==':'){
+                validdata=1;
+            }
+        }
+        return;
+    }
     if ((UART.SERCOM_INTFLAG & RXC_Flag)) {
         if (packetpointerR == packetlengthR) {
             UART.SERCOM_INTENCLR = RXC_Flag;
@@ -80,14 +98,18 @@ void Disableinterrupt(void) {
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
 }
 
-void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket) {
+void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket,unsigned char type) {
+    IsTransferingToSPI=type;
     transmissionpacket = Tpacket;
     datatoread=Rpacket;
     packetlengthT = Tlength;
     packetlengthR = Rlength;
     Enableinterrupt();
     if (Rlength==0){
-        UART.SERCOM_INTENCLR=0x04;
+        UART.SERCOM_INTENCLR=RXC_Flag;
+    }
+    if (Tlength==0){
+        UART.SERCOM_INTENCLR=TXC_Flag;
     }
     UART.SERCOM_DATA=*Tpacket;
     packetpointerT++;

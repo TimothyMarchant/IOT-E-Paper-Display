@@ -79,7 +79,7 @@ build/default/production/Pervaise_Display_E_Paper_Drivers.o: \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h SPI_Methods.h GPIO.h \
- Timer0_Methods.h UART_Methods.h
+ Timer0_Methods.h UART_Methods.h Delay.h
 
 CircularQueue.h:
 
@@ -250,3 +250,5 @@ GPIO.h:
 Timer0_Methods.h:
 
 UART_Methods.h:
+
+Delay.h:

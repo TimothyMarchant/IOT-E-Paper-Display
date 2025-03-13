@@ -9,11 +9,11 @@
 #define DataREG SPI.SERCOM_DATA
 //for enabling peripherals
 #define GCLKSERCOM0 GCLK_REGS->GCLK_PCHCTRL[11]
-#define CTRLBRegisterSettings 0x00002000
+#define CTRLBRegisterSettings 0x00000000
 #define Transmit_Complete 0x02
 #define DRE 0x01
-#define GCLKPERDefaultMask 0x40
-#define CTRLARegisterMask 0x1020008C
+#define GCLKPERDefaultMask 0x00000040
+#define CTRLARegisterMask 0x1030008C
 #define Success 1
 #define Failure 0
 volatile unsigned char databuffer = 0x00;
@@ -114,9 +114,9 @@ void SPI_Start_Repeated(const volatile unsigned char pin, const volatile unsigne
 }
 //We are done transferring use regardless of which start method was chosen
 volatile void SPI_End(volatile unsigned int pin) {
+    pinwrite(pin, HIGH);
     Disableinterrupts();
     currentCS = 0x00;
-    pinwrite(pin, HIGH);
     //reset everything
     QueueMode = 0;
     Repeatedsendmode = 0;
