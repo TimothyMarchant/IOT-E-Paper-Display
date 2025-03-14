@@ -103,7 +103,7 @@ void SPI_Start_Queue_Packet(const volatile unsigned pin, volatile Queue* queue) 
     QueueMode = 1;
 }
 //for packets of unknown length, or sending packets of very small length.  Use blocking write function (mainly meant for when I don't care enough to define packets)
-void SPI_Start_Unknown_Packet(const volatile unsigned char pin) {
+void SPI_Start_Unknown_Packet(const volatile unsigned int pin) {
     currentCS = pin;
     pinwrite(pin, LOW);
 }

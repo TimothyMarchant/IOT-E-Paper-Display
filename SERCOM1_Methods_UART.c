@@ -29,17 +29,11 @@ void UARTSPI_Callback(unsigned char);
 void Resetvaliddata(void){
     validdata=0;
 }
+void EpaperReadWrite_UART_Callback(unsigned char);
 void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
     if (IsTransferingToSPI){
         unsigned char data=UART.SERCOM_DATA;
-        if (validdata){
-        UARTSPI_Callback(data);
-        }
-        else {
-            if (data==':'){
-                validdata=1;
-            }
-        }
+        EpaperReadWrite_UART_Callback(data);
         return;
     }
     if ((UART.SERCOM_INTFLAG & RXC_Flag)) {
@@ -65,12 +59,17 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
         }
     }
 }
-
+unsigned char isBusy(void){
+    if (UART.SERCOM_INTENSET&RXC_Flag||UART.SERCOM_INTENSET&TXC_Flag){
+      return 1;   
+    }
+    return 0;
+}
 void InitUART(void) {
     //activate peripherial
     GCLK_REGS->GCLK_PCHCTRL[12] = GCLKPERDefaultMask;
-    pinmuxconfig(0,GROUPD);
-    pinmuxconfig(1,GROUPD);
+    pinmuxconfig(0,GROUPD); //SERCOM1 [0] TX
+    pinmuxconfig(1,GROUPD); //SERCOM1 [1] RX
     UART.SERCOM_BAUD = requiredbaudvalue;
     UART.SERCOM_CTRLA = CTRLAmask;
     UART.SERCOM_CTRLB = CTRLBmask;

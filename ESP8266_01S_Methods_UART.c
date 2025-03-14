@@ -22,8 +22,8 @@ const unsigned char* const SLEEP="AT+GSLP=1000\r\n";
 //get current status
 const char* const ATCIPSTATUS="AT+CIPSTATUS\r\n";
 //start the TCP connection
-const char* const TCPSTART="AT+CIPSTART=\"TCP\",\"IP\",PORTNUM\r\n";
-char* const TCPSENDSTART="AT+CIPSEND="; //send this with the length of the message.
+#define TCPSTART "AT+CIPSTART=\"TCP\",\"10.0.0.82\",7777\r\n"
+#define TCPSENDSTART "AT+CIPSEND=1\r\n" //send this with the length of the message.
 //AT response array.
 unsigned char ATResponse[100]={};
 //ensure the device is working by using the AT command
@@ -31,10 +31,17 @@ void Test(void){
     BeginTransmission(strlen(ATString),ATString,6,ATResponse,0);
 }
 void TestSend(void){
-    
+    BeginTransmission(strlen(TCPSTART),TCPSTART,6,ATResponse,0);
+    while (isBusy());
+    BeginTransmission(strlen(TCPSENDSTART),TCPSENDSTART,1,ATResponse,0);
+    while (isBusy());
+    //use callback function
+    BeginTransmission(1,0x00,1,ATResponse,1);
+    while (isBusy());
 }
- 
+/*
 //listen for a packet
 void Listen(unsigned short length){
     
 }
+ * */
