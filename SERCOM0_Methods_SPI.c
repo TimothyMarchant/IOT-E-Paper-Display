@@ -130,3 +130,13 @@ void SPI_Write_Blocking(unsigned char data) {
     SPI.SERCOM_DATA = data;
     while (!(SPI.SERCOM_INTFLAG & DRE));
 }
+void ChangetoLSB(void){
+    DisableSPI();
+    SPI.SERCOM_CTRLA|=0x40000000;
+    EnableSPI();
+}
+void ChangetoMSB(void){
+    DisableSPI();
+    SPI.SERCOM_CTRLA&=~(0x40000000);
+    EnableSPI();
+}

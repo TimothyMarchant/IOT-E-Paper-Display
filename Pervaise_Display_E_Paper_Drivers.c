@@ -8,6 +8,7 @@
 #include "UART_Methods.h"
 #include "Delay.h"
 #define UART SERCOM1_REGS->USART_INT
+#define SPI SERCOM0_REGS->SPIM
 #define RXC 0x04
 //outputs
 #define DC PORT_PA15
@@ -36,13 +37,20 @@ void TestSend(void);
 //this is to write image data; this is not the most optimal way to write this, but this is just to test things.
 //message format is +IPD,<LENGTH>:<DATA> where LENGTH<=1460
 void EpaperReadWrite_UART_Callback(unsigned char data){
-    if (isImagedata){
+    if (!isImagedata){
+        //this is how the ESP sends data back something, length and finally : afterwards is all data.
+        if (data==':'){
+            isImagedata=1;
+        }
+        return;
+    }
         //for now we will use the blocking write until I bother to write a better solution
-        SPI_Write_Blocking(data);
+        SPI.SERCOM_DATA = data;
         packetlengthcount++;
         if (packetlengthcount==packetlengths[i]){
-            packetlengthcount=0;
             i++;
+            packetlengthcount=0;
+            isImagedata=0;
         }
         currentcount++;
         //disable interrupt and stop transmission
@@ -50,15 +58,10 @@ void EpaperReadWrite_UART_Callback(unsigned char data){
             UART.SERCOM_INTENCLR=RXC;
             SPI_End(CS);
             i=0;
+            currentcount=0;
         }
         return;
-    }
-    if (!isImagedata){
-        //this is how the ESP sends data back something, length and finally : afterwards is all data.
-        if (data==':'){
-            isImagedata=1;
-        }
-    }
+    
 }
 //only called once
 void Init_Epaper_IO(void){
@@ -138,7 +141,12 @@ void Preparesendforqueue(void){
 //send necessary data to update screen
 void updatescreen(void){
     Init_Screen();
+    SPI_Start_Unknown_Packet(CS);
+    sendcommand(DTM1REG);
+    //ChangetoLSB();
     TestSend();
+    SPI_End(CS);
+    //ChangetoMSB();
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM2REG);
     for (unsigned short i=0;i<5000;i++){
