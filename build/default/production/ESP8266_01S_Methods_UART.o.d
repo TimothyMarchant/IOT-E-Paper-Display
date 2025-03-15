@@ -79,7 +79,7 @@ build/default/production/ESP8266_01S_Methods_UART.o: \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h SPI_Methods.h GPIO.h \
- Timer0_Methods.h UART_Methods.h
+ Timer0_Methods.h UART_Methods.h Delay.h
 
 CircularQueue.h:
 
@@ -250,3 +250,5 @@ GPIO.h:
 Timer0_Methods.h:
 
 UART_Methods.h:
+
+Delay.h:

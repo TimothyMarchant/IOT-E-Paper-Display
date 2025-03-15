@@ -37,13 +37,13 @@ void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
         return;
     }
     if ((UART.SERCOM_INTFLAG & RXC_Flag)) {
-        if (packetpointerR == packetlengthR) {
+        if (packetpointerR == packetlengthR-1) {
             UART.SERCOM_INTENCLR = RXC_Flag;
             packetpointerR = 0;
 
         } else {
             while (!(UART.SERCOM_INTFLAG&0x01));
-            datatoread[packetpointerR] = UART.SERCOM_DATA;
+            *(datatoread+packetpointerR) = UART.SERCOM_DATA;
             packetpointerR++;
         }
     }
@@ -68,6 +68,8 @@ unsigned char isBusy(void){
 void InitUART(void) {
     //activate peripherial
     GCLK_REGS->GCLK_PCHCTRL[12] = GCLKPERDefaultMask;
+    configpin(PORT_PA01,Input);
+    configpin(PORT_PA00,Output);
     pinmuxconfig(0,GROUPD); //SERCOM1 [0] TX
     pinmuxconfig(1,GROUPD); //SERCOM1 [1] RX
     UART.SERCOM_BAUD = requiredbaudvalue;
