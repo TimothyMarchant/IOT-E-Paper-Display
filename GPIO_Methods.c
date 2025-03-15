@@ -20,7 +20,9 @@
 void Init_IO(void){
     for (unsigned char i=0;i<32;i++){
     PA.PORT_PINCFG[i]=INEN;
+    
     }
+    PA.PORT_DIR=~(0);
 }
 void configpin(const volatile unsigned int pin,const unsigned char type){
     if (type){
@@ -40,7 +42,7 @@ void pinwrite(const volatile unsigned int pin,const unsigned char level){
 }
 //read input
 unsigned char pinread(const volatile unsigned int pin,const unsigned char pinnum){
-    return (PA.PORT_IN&pin)>>pinnum;
+    return ((PA.PORT_IN&pin)>>pinnum);
 }
 void pinmuxconfig(const unsigned char pinnum,const unsigned char group){
     unsigned char n=pinnum/2;
@@ -54,7 +56,7 @@ void pinmuxconfig(const unsigned char pinnum,const unsigned char group){
     }
     //enable peripheral functionality
     
-    PA.PORT_PINCFG[pinnum]|=0x01;
+    PA.PORT_PINCFG[pinnum]=0x01;
     PA.PORT_PMUX[n]|=mask;
     
 }

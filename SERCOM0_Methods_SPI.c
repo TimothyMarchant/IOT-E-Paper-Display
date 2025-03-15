@@ -9,10 +9,10 @@
 #define DataREG SPI.SERCOM_DATA
 //for enabling peripherals
 #define GCLKSERCOM0 GCLK_REGS->GCLK_PCHCTRL[11]
-#define CTRLBRegisterSettings 0x00022000
+#define CTRLBRegisterSettings 0x00000000
 #define Transmit_Complete 0x02
 #define DRE 0x01
-#define GCLKPERDefaultMask 0x40
+#define GCLKPERDefaultMask 0x00000040
 #define CTRLARegisterMask 0x1030008C
 #define Success 1
 #define Failure 0
@@ -24,8 +24,9 @@ volatile unsigned char QueueMode = 0;
 volatile unsigned char Repeatedsendmode = 0;
 volatile unsigned int currentCS = 0;
 static inline void Disableinterrupts(void);
+#define PA PORT_REGS->GROUP[0]
 void SPI_Queue_Callback(void);
-volatile void SPI_End(const volatile unsigned char pin);
+volatile void SPI_End( volatile unsigned int pin);
 void SPI_Queue_Callback();
 
 void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
@@ -55,6 +56,10 @@ void InitSPI(const unsigned char baudrate) {
     //using SSOP24 package.  Enable pins for SERCOM0
     //pinmuxconfig(2, GROUPD); //pad[2] PA2 pin 7 not needed for transmission kept for reference
     //pinmuxconfig(3, GROUPD); //pad[3] PA3 pin 8 not needed for transmission kept for reference
+    configpin(PORT_PA04,Output);
+    pinwrite(PORT_PA04,LOW);
+    configpin(PORT_PA05,Output);
+    pinwrite(PORT_PA05,LOW);
     pinmuxconfig(4, GROUPD); //pad[0] PA4 pin 9 with current settings MOSI
     pinmuxconfig(5, GROUPD); //pad[1] PA5 pin 10 with current settings clock line
     //enable SERCOM0
@@ -98,7 +103,7 @@ void SPI_Start_Queue_Packet(const volatile unsigned pin, volatile Queue* queue) 
     QueueMode = 1;
 }
 //for packets of unknown length, or sending packets of very small length.  Use blocking write function (mainly meant for when I don't care enough to define packets)
-void SPI_Start_Unknown_Packet(const volatile unsigned char pin) {
+void SPI_Start_Unknown_Packet(const volatile unsigned int pin) {
     currentCS = pin;
     pinwrite(pin, LOW);
 }
@@ -108,10 +113,10 @@ void SPI_Start_Repeated(const volatile unsigned char pin, const volatile unsigne
     SPI_Start(pin, length, &data);
 }
 //We are done transferring use regardless of which start method was chosen
-volatile void SPI_End(const volatile unsigned char pin) {
+volatile void SPI_End(volatile unsigned int pin) {
+    pinwrite(pin, HIGH);
     Disableinterrupts();
     currentCS = 0x00;
-    pinwrite(pin, HIGH);
     //reset everything
     QueueMode = 0;
     Repeatedsendmode = 0;
@@ -121,6 +126,17 @@ volatile void SPI_End(const volatile unsigned char pin) {
 //this write method uses a blocking loop until we can write again.  For testing purposes mostly or small amount of writes
 
 void SPI_Write_Blocking(unsigned char data) {
-    while (!SPI.SERCOM_INTFLAG & DRE);
+    while (!(SPI.SERCOM_INTFLAG & DRE));
     SPI.SERCOM_DATA = data;
+    while (!(SPI.SERCOM_INTFLAG & DRE));
+}
+void ChangetoLSB(void){
+    DisableSPI();
+    SPI.SERCOM_CTRLA|=0x40000000;
+    EnableSPI();
+}
+void ChangetoMSB(void){
+    DisableSPI();
+    SPI.SERCOM_CTRLA&=~(0x40000000);
+    EnableSPI();
 }
