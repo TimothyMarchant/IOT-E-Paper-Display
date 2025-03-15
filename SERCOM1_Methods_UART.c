@@ -7,6 +7,8 @@
 #define CTRLAmask 0x40100084
 //value needed for 115200 baud rate
 #define requiredbaudvalue 35337
+//value needed for 9600 baud rate (approximately)
+#define normalbaudvalue 63019
 #define UART SERCOM1_REGS->USART_INT
 #define RXC_Flag 0x04
 #define TXC_Flag 0x02
@@ -22,60 +24,74 @@ unsigned short packetlengthR = 0;
 volatile unsigned short packetpointerT = 0;
 //receiving pointer
 volatile unsigned short packetpointerR = 0;
-unsigned char IsTransferingToSPI=0;
-unsigned char validdata=0;
+unsigned char IsTransferingToSPI = 0;
+unsigned char validdata = 0;
 void UARTSPI_Callback(unsigned char);
 //meant to be called from other files
-void Resetvaliddata(void){
-    validdata=0;
+void Disableinterrupt(void);
+void Resetvaliddata(void) {
+    validdata = 0;
 }
-void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
-    if (IsTransferingToSPI){
-        unsigned char data=UART.SERCOM_DATA;
-        if (validdata){
-        UARTSPI_Callback(data);
-        }
-        else {
-            if (data==':'){
-                validdata=1;
-            }
-        }
-        return;
-    }
-    if ((UART.SERCOM_INTFLAG & RXC_Flag)) {
-        if (packetpointerR == packetlengthR) {
-            UART.SERCOM_INTENCLR = RXC_Flag;
-            packetpointerR = 0;
+void EpaperReadWrite_UART_Callback(unsigned char);
 
-        } else {
-            while (!(UART.SERCOM_INTFLAG&0x01));
-            datatoread[packetpointerR] = UART.SERCOM_DATA;
-            packetpointerR++;
-        }
-    }
+void __attribute__((interrupt)) SERCOM1_1_Handler(void) {
+
     if (UART.SERCOM_INTFLAG & TXC_Flag) {
+
+        while (!(UART.SERCOM_INTFLAG & 0x01));
+        UART.SERCOM_DATA = *(transmissionpacket + packetpointerT);
+        packetpointerT++;
         if (packetpointerT == packetlengthT) {
             UART.SERCOM_INTENCLR = TXC_Flag;
             packetpointerT = 0;
-
-        } else {
-            while (!(UART.SERCOM_INTFLAG&0x01));
-            UART.SERCOM_DATA = *(transmissionpacket + packetpointerT);
-            packetpointerT++;
+            if (packetlengthR!=0){
+            UART.SERCOM_INTENSET = RXC_Flag;
+            }
+            else {
+                Disableinterrupt();
+            }
         }
+
     }
+}
+
+void __attribute__((interrupt)) SERCOM1_2_Handler(void) {
+    if (IsTransferingToSPI) {
+        unsigned char data = UART.SERCOM_DATA;
+        EpaperReadWrite_UART_Callback(data);
+        return;
+    }
+    while (!(UART.SERCOM_INTFLAG & 0x01));
+    *(datatoread + packetpointerR) = UART.SERCOM_DATA;
+    packetpointerR++;
+    //received last byte if this is true
+    if (packetpointerR == packetlengthR - 1) {
+        UART.SERCOM_INTENCLR = RXC_Flag;
+        packetpointerR = 0;
+        Disableinterrupt();
+    }
+}
+
+volatile unsigned char isBusy(void) {
+    if (UART.SERCOM_INTENSET & RXC_Flag || UART.SERCOM_INTENSET & TXC_Flag) {
+        return 1;
+    }
+    return 0;
 }
 
 void InitUART(void) {
     //activate peripherial
     GCLK_REGS->GCLK_PCHCTRL[12] = GCLKPERDefaultMask;
-    pinmuxconfig(0,GROUPD);
-    pinmuxconfig(1,GROUPD);
-    UART.SERCOM_BAUD = requiredbaudvalue;
+    configpin(PORT_PA01, Input);
+    configpin(PORT_PA00, Output);
+    pinmuxconfig(0, GROUPD); //SERCOM1 [0] TX
+    pinmuxconfig(1, GROUPD); //SERCOM1 [1] RX
+    UART.SERCOM_BAUD = normalbaudvalue;
     UART.SERCOM_CTRLA = CTRLAmask;
     UART.SERCOM_CTRLB = CTRLBmask;
     //needs to be higher priority than other interrupts
     NVIC_SetPriority(SERCOM1_1_IRQn, 2);
+    NVIC_SetPriority(SERCOM1_2_IRQn, 1);
 }
 //turn on sercom1
 
@@ -91,28 +107,35 @@ void EndUART(void) {
 void Enableinterrupt(void) {
     UART.SERCOM_INTENSET = defaultinterrupts;
     NVIC_EnableIRQ(SERCOM1_1_IRQn);
+    NVIC_EnableIRQ(SERCOM1_2_IRQn);
 }
 
 void Disableinterrupt(void) {
     UART.SERCOM_INTENCLR = defaultinterrupts;
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
+    NVIC_DisableIRQ(SERCOM1_2_IRQn);
 }
 
-void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength,unsigned char* Rpacket,unsigned char type) {
-    IsTransferingToSPI=type;
+void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength, unsigned char* Rpacket, unsigned char type) {
+    IsTransferingToSPI = type;
     transmissionpacket = Tpacket;
-    datatoread=Rpacket;
+    datatoread = Rpacket;
     packetlengthT = Tlength;
     packetlengthR = Rlength;
-    Enableinterrupt();
-    if (Rlength==0){
-        UART.SERCOM_INTENCLR=RXC_Flag;
-    }
-    if (Tlength==0){
-        UART.SERCOM_INTENCLR=TXC_Flag;
-    }
-    UART.SERCOM_DATA=*Tpacket;
-    packetpointerT++;
     
+    if (!type) {
+        UART.SERCOM_INTENCLR = RXC_Flag;
+    }
+    if (Tlength == 0||type) {
+        UART.SERCOM_INTENCLR = TXC_Flag;
+    }
+    UART.SERCOM_DATA = *Tpacket;
+    if (!type){
+        packetpointerT++;
+    }
+    Enableinterrupt();
+    
+    
+
     //pins are already configured we simply just need to figure out where to put or interrupt ISR
 }
