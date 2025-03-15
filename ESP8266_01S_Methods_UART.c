@@ -29,7 +29,7 @@
 #define dummy "a"
 #define ATTestResponse "\r\nOK\r\n"
 unsigned char ATResponse[30]={};
-//ensure the device is working by using the AT command
+//ensure the device is working by using the AT command also should not send anything if not given "\r\nOK\r\n"
 unsigned char ATbusy(void){
     BeginTransmission(strlen(ATString),ATString,7,ATResponse,0);
     while (isBusy());
@@ -45,22 +45,25 @@ unsigned char ATbusy(void){
     return 0;
 }
 void disable_echo(void){
+    //disable echo
     BeginTransmission(strlen(ATE0),ATE0,7,ATResponse,0);
     while(isBusy());
 }
+//test ESP and Epaper screen together
 void TestSend(void){
+    //echo is annoying
     disable_echo();
     while (ATbusy());
+    //connect to server
     BeginTransmission(strlen(TCPSTART),TCPSTART,16,ATResponse,0);
     while (isBusy());
-    //delay(1000);
+    //select message length.  In this case it will be 1
     BeginTransmission(strlen(TCPSENDSTART),TCPSENDSTART,7,ATResponse,0);
     while (isBusy());
-    //delay(1000);
-    //use callback function
+    //use callback function actual values are not important
     BeginTransmission(1,dummy,1,ATResponse,1);
     while (isBusy());
-    //delay(1000);
+    //close socket
     BeginTransmission(strlen(CLOSETCPSOCKET),CLOSETCPSOCKET,7,ATResponse,0);
     while (isBusy());
 }
