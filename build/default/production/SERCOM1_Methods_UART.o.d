@@ -77,7 +77,8 @@ build/default/production/SERCOM1_Methods_UART.o: SERCOM1_Methods_UART.c \
  ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h CircularQueue.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h CircularQueue.h \
+ Sleep.h
 
 ../src/config/default/definitions.h:
 
@@ -242,3 +243,5 @@ build/default/production/SERCOM1_Methods_UART.o: SERCOM1_Methods_UART.c \
 GPIO.h:
 
 CircularQueue.h:
+
+Sleep.h:

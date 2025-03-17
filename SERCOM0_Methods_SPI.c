@@ -25,9 +25,9 @@ volatile unsigned char Repeatedsendmode = 0;
 volatile unsigned int currentCS = 0;
 static inline void Disableinterrupts(void);
 #define PA PORT_REGS->GROUP[0]
-void SPI_Queue_Callback(void);
+//void SPI_Queue_Callback(void);
 volatile void SPI_End( volatile unsigned int pin);
-void SPI_Queue_Callback();
+//void SPI_Queue_Callback();
 
 void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
     if (SPI.SERCOM_INTFLAG & DRE) {
@@ -37,7 +37,7 @@ void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
 
         }            //meant for usage with SERCOM1
         else if (QueueMode) {
-            SPI_Queue_Callback();
+            //SPI_Queue_Callback();
         }            //for repeated sending.  There are a few use cases for this
         else {
             DataREG = *Packet;

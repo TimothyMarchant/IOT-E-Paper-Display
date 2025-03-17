@@ -28,7 +28,7 @@
 unsigned short imagelength=5000;
 unsigned short currentcount=0;
 unsigned char currentpacketlengthptr=0;
-//TCP packet lengths we know in advanced what it should be doing
+//TCP packet lengths we know in advanced.  These will not change as the image size is 5000 bytes
 unsigned short packetlengths[4]={1460,1460,1460,620};
 unsigned short packetlengthcount=0;
 unsigned char isImagedata=0;
@@ -44,9 +44,11 @@ void EpaperReadWrite_UART_Callback(unsigned char data){
         }
         return;
     }
-        //for now we will use the blocking write until I bother to write a better solution
+        //Normally I would have a blocking loop here, but since our UART perhiperial transfers so slowly it's strictly unnecessary (since our SPI speed is pretty fast in comparison)
+        //while (!(SPI.SERCOM_INTFLAG&0x01));
         SPI.SERCOM_DATA = data;
         packetlengthcount++;
+        //if this is true do not send more data until the original conditional is satisfied again.
         if (packetlengthcount==packetlengths[i]){
             i++;
             packetlengthcount=0;
@@ -73,13 +75,14 @@ void Init_Epaper_IO(void){
     pinwrite(DC,HIGH);
     //pinwrite(RES,LOW);
 }
-//Pervaise Displays wants you to stop powering the screen once you are done writing to it, so this would be called more than once.
-//However for this project we will skip that for now.
+//send a command
 void sendcommand(unsigned char CMD){
     pinwrite(DC,LOW);
     SPI_Write_Blocking(CMD);
     pinwrite(DC,HIGH);
 }
+//Pervaise Displays wants you to stop powering the screen once you are done writing to it, so this would be called more than once.
+//However for this project we will skip that for now.
 void Init_Screen(void){
     delay(5);
     configpin(RES,Output);
@@ -97,30 +100,22 @@ void Init_Screen(void){
     pinwrite(DC,HIGH);
     SPI_End(CS);
     while (pinread(Busy,14)>=1);
-    
-    
-    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(TemperatureREG);
     //temperature
     SPI_Write_Blocking(0x14);
-    //SPI_End(CS);
-    //pinwrite(DC,LOW);
-    //SPI_Start_Unknown_Packet(CS);
     sendcommand(PanelSetting);
     SPI_Write_Blocking(PanelSettingData);
     SPI_End(CS);
 }
 //testing purposes
 void testsendbuffer(void){
-    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM1REG);
     for (unsigned short i=0;i<5000;i++){
         SPI_Write_Blocking(0x00);
     }
     SPI_End(CS);
-    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM2REG);
     for (unsigned short i=0;i<5000;i++){
@@ -129,12 +124,12 @@ void testsendbuffer(void){
     SPI_End(CS);
     //update display
     while(pinread(Busy,14));
-    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(0x20);
     SPI_End(CS);
     while(pinread(Busy,14));
 }
+//placeholder
 void Preparesendforqueue(void){
     
 }
@@ -143,10 +138,8 @@ void updatescreen(void){
     Init_Screen();
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM1REG);
-    //ChangetoLSB();
     TestSend();
     SPI_End(CS);
-    //ChangetoMSB();
     SPI_Start_Unknown_Packet(CS);
     sendcommand(DTM2REG);
     for (unsigned short i=0;i<5000;i++){
@@ -155,12 +148,12 @@ void updatescreen(void){
     SPI_End(CS);
     //update display
     while(pinread(Busy,14));
-    //pinwrite(DC,LOW);
     SPI_Start_Unknown_Packet(CS);
     sendcommand(0x20);
     SPI_End(CS);
     while(pinread(Busy,14));
 }
+//For testing purposes
 void testscreen(void){
     Init_Screen();
     testsendbuffer();

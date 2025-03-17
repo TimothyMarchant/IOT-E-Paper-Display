@@ -8,12 +8,13 @@
 #include "Timer0_Methods.h"
 #include "UART_Methods.h"
 #include "Delay.h"
+#include "Sleep.h"
 //nothing should change for this
 #define ATString "AT\r\n"
 //disable echo
 #define ATE0 "ATE0\r\n"
-//sleep for 1 second default sleep string
-#define SLEEP "AT+GSLP=1000\r\n"
+//sleep for 1 second default sleep string will be used later
+#define ESPSLEEP "AT+GSLP=1000\r\n"
 //These strings would be needed to connect to a network, but this will be done off this microcontroller for privacy (don't want to expose my network)
 //default WiFi mode; set to station mode
 //const char* const ATCWMODE_DEF="AT+CWMODE_DEF=1";
@@ -27,7 +28,9 @@
 #define CLOSETCPSOCKET "AT+CIPCLOSE\r\n" //make sure to close the socket
 //AT response array.
 #define dummy "a"
+//expected response from AT\r\n
 #define ATTestResponse "\r\nOK\r\n"
+//Expected response array.
 unsigned char ATResponse[30]={};
 //ensure the device is working by using the AT command also should not send anything if not given "\r\nOK\r\n"
 unsigned char ATbusy(void){
@@ -56,16 +59,16 @@ void TestSend(void){
     while (ATbusy());
     //connect to server
     BeginTransmission(strlen(TCPSTART),TCPSTART,16,ATResponse,0);
-    while (isBusy());
+    while(isBusy());
     //select message length.  In this case it will be 1
     BeginTransmission(strlen(TCPSENDSTART),TCPSENDSTART,7,ATResponse,0);
-    while (isBusy());
+    while(isBusy());
     //use callback function actual values are not important
     BeginTransmission(1,dummy,1,ATResponse,1);
-    while (isBusy());
+    while(isBusy());
     //close socket
     BeginTransmission(strlen(CLOSETCPSOCKET),CLOSETCPSOCKET,7,ATResponse,0);
-    while (isBusy());
+    while(isBusy());
 }
 /*
 //listen for a packet

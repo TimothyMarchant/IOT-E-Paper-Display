@@ -3,6 +3,7 @@
 #include "definitions.h"
 #include "GPIO.h"
 #include "CircularQueue.h"
+#include "Sleep.h"
 #define CTRLBmask 0x00030000
 #define CTRLAmask 0x40100084
 //value needed for 115200 baud rate
@@ -26,7 +27,6 @@ volatile unsigned short packetpointerT = 0;
 volatile unsigned short packetpointerR = 0;
 unsigned char IsTransferingToSPI = 0;
 unsigned char validdata = 0;
-void UARTSPI_Callback(unsigned char);
 //meant to be called from other files
 void Disableinterrupt(void);
 void Resetvaliddata(void) {
@@ -74,6 +74,8 @@ void __attribute__((interrupt)) SERCOM1_2_Handler(void) {
 
 volatile unsigned char isBusy(void) {
     if (UART.SERCOM_INTENSET & RXC_Flag || UART.SERCOM_INTENSET & TXC_Flag) {
+        //sleep and upon wakeup we will check again
+        SLEEP;
         return 1;
     }
     return 0;
@@ -115,27 +117,24 @@ void Disableinterrupt(void) {
     NVIC_DisableIRQ(SERCOM1_1_IRQn);
     NVIC_DisableIRQ(SERCOM1_2_IRQn);
 }
-
-void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength, unsigned char* Rpacket, unsigned char type) {
-    IsTransferingToSPI = type;
+//For non screen transfers we know the length in advance.  For "isScreenTransfer" we use the callback for writing to the display.
+void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, unsigned short Rlength, unsigned char* Rpacket, unsigned char isScreenTransfer) {
+    IsTransferingToSPI = isScreenTransfer;
     transmissionpacket = Tpacket;
     datatoread = Rpacket;
     packetlengthT = Tlength;
     packetlengthR = Rlength;
     
-    if (!type) {
+    if (!isScreenTransfer) {
         UART.SERCOM_INTENCLR = RXC_Flag;
     }
-    if (Tlength == 0||type) {
+    if (Tlength == 0||isScreenTransfer) {
         UART.SERCOM_INTENCLR = TXC_Flag;
     }
+    //this write is needed in order for the RXC and TXC flags to go HIGH after the first write.
     UART.SERCOM_DATA = *Tpacket;
-    if (!type){
+    if (!isScreenTransfer){
         packetpointerT++;
     }
     Enableinterrupt();
-    
-    
-
-    //pins are already configured we simply just need to figure out where to put or interrupt ISR
 }
