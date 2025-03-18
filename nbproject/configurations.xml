@@ -129,13 +129,15 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>GPIO.h</itemPath>
       <itemPath>CircularQueue.h</itemPath>
-      <itemPath>Timer0_Methods.h</itemPath>
-      <itemPath>SPI_Methods.h</itemPath>
-      <itemPath>UART_Methods.h</itemPath>
       <itemPath>Delay.h</itemPath>
+      <itemPath>SPI_Methods.h</itemPath>
       <itemPath>Sleep.h</itemPath>
+      <itemPath>Timer0_Methods.h</itemPath>
+      <itemPath>UART_Methods.h</itemPath>
+      <itemPath>Prescalerbits.h</itemPath>
+      <itemPath>TC1_Methods.h</itemPath>
+      <itemPath>GPIO.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -189,18 +191,22 @@
       </logicalFolder>
       <itemPath>../src/config/default/pin_configurations.csv</itemPath>
       <itemPath>../src/main.c</itemPath>
+      <itemPath>Timer0_Methods.c</itemPath>
+      <itemPath>CircularQueue.c</itemPath>
+      <itemPath>Delay.c</itemPath>
+      <itemPath>ESP8266_01S_Methods_UART.c</itemPath>
       <itemPath>GPIO_Methods.c</itemPath>
       <itemPath>Interrupt_Handlers.c</itemPath>
-      <itemPath>Timer0_Methods.c</itemPath>
-      <itemPath>SERCOM0_Methods_SPI.c</itemPath>
       <itemPath>SERCOM1_Methods_UART.c</itemPath>
-      <itemPath>CircularQueue.c</itemPath>
-      <itemPath>Pervaise_Display_E_Paper_Drivers.c</itemPath>
-      <itemPath>ESP8266_01S_Methods_UART.c</itemPath>
-      <itemPath>Delay.c</itemPath>
       <itemPath>Sleep_Methods.c</itemPath>
+      <itemPath>TC1_Methods.c</itemPath>
+      <itemPath>Pervaise_Display_E_Paper_Drivers.c</itemPath>
+      <itemPath>SERCOM0_Methods_SPI.c</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
@@ -266,7 +272,7 @@
         <property key="preprocessor-macros" value=""/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
-        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="tentative-definitions" value=""/>
         <property key="toplevel-reordering" value=""/>
         <property key="unaligned-access" value=""/>
         <property key="use-cci" value="false"/>

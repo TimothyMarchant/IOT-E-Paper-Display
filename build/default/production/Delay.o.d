@@ -77,7 +77,7 @@ build/default/production/Delay.o: Delay.c \
  ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h Timer0_Methods.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h TC1_Methods.h Sleep.h
 
 ../src/config/default/definitions.h:
 
@@ -239,4 +239,6 @@ build/default/production/Delay.o: Delay.c \
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
 
-Timer0_Methods.h:
+TC1_Methods.h:
+
+Sleep.h:

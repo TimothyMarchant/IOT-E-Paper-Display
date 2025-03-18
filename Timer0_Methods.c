@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #define TC0 TC0_REGS
 #define enablebit 0x02
-const unsigned int bitmasks[10]={};
 //we only will increment the timer
 void Init_TC0(const volatile unsigned char prescaler,const volatile unsigned char runinstandby){
     //enable timer0
