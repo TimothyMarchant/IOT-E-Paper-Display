@@ -30,11 +30,20 @@
 #define dummy "a"
 //expected response from AT\r\n
 #define ATTestResponse "\r\nOK\r\n"
+#define ATCloseResponse "\r\nCLOSED\r\n\r\nOK\r\n"
 //Expected response array.
-unsigned char ATResponse[30]={};
+unsigned volatile char ATResponse[30]={};
+#define ATResponseMaxLength 30
+
+void clearResponse(void){
+    for (unsigned char i=0;i<ATResponseMaxLength;i++){
+        ATResponse[i]=0;
+    }
+}
 //ensure the device is working by using the AT command also should not send anything if not given "\r\nOK\r\n"
 unsigned char ATbusy(void){
-    BeginTransmission(strlen(ATString),ATString,7,ATResponse,0);
+    clearResponse();
+    BeginTransmission(strlen(ATString),ATString,6,ATResponse,0);
     while (isBusy());
     for (char i=0;i<6;i++){
         if (ATResponse[i]==ATTestResponse[i]){
@@ -49,7 +58,7 @@ unsigned char ATbusy(void){
 }
 void disable_echo(void){
     //disable echo
-    BeginTransmission(strlen(ATE0),ATE0,7,ATResponse,0);
+    BeginTransmission(strlen(ATE0),ATE0,6,ATResponse,0);
     while(isBusy());
 }
 //test ESP and Epaper screen together
@@ -58,16 +67,16 @@ void TestSend(void){
     disable_echo();
     while (ATbusy());
     //connect to server
-    BeginTransmission(strlen(TCPSTART),TCPSTART,16,ATResponse,0);
+    BeginTransmission(strlen(TCPSTART),TCPSTART,15,ATResponse,0);
     while(isBusy());
     //select message length.  In this case it will be 1
-    BeginTransmission(strlen(TCPSENDSTART),TCPSENDSTART,7,ATResponse,0);
+    BeginTransmission(strlen(TCPSENDSTART),TCPSENDSTART,6,ATResponse,0);
     while(isBusy());
     //use callback function actual values are not important
     BeginTransmission(1,dummy,1,ATResponse,1);
     while(isBusy());
     //close socket
-    BeginTransmission(strlen(CLOSETCPSOCKET),CLOSETCPSOCKET,7,ATResponse,0);
+    BeginTransmission(strlen(CLOSETCPSOCKET),CLOSETCPSOCKET,14,ATResponse,0);
     while(isBusy());
 }
 /*
