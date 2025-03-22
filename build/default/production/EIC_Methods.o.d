@@ -10,7 +10,7 @@ build/default/production/EIC_Methods.o: EIC_Methods.c EICFlagbits.h \
  ../src/config/default/peripheral/pm/plib_pm.h \
  ../src/config/default/peripheral/port/plib_port.h \
  ../src/config/default/peripheral/clock/plib_clock.h \
- ../src/config/default/peripheral/nvic/plib_nvic.h
+ ../src/config/default/peripheral/nvic/plib_nvic.h GPIO.h
 
 EICFlagbits.h:
 
@@ -41,3 +41,5 @@ EIC_Configbits.h:
 ../src/config/default/peripheral/clock/plib_clock.h:
 
 ../src/config/default/peripheral/nvic/plib_nvic.h:
+
+GPIO.h:
