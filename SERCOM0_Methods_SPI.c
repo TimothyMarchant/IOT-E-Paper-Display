@@ -20,7 +20,6 @@ volatile unsigned char databuffer = 0x00;
 volatile unsigned short packetlength = 0;
 volatile unsigned short packetpointer = 0;
 volatile unsigned char* Packet;
-volatile unsigned char QueueMode = 0;
 volatile unsigned char Repeatedsendmode = 0;
 volatile unsigned int currentCS = 0;
 static inline void Disableinterrupts(void);
@@ -31,14 +30,12 @@ volatile void SPI_End( volatile unsigned int pin);
 
 void __attribute__((interrupt)) SERCOM0_0_Handler(void) {
     if (SPI.SERCOM_INTFLAG & DRE) {
-        if (!QueueMode && Repeatedsendmode) {
+        if (!Repeatedsendmode) {
             //clears interrupt flag
             DataREG = (*(Packet + packetpointer));
 
-        }            //meant for usage with SERCOM1
-        else if (QueueMode) {
-            //SPI_Queue_Callback();
-        }            //for repeated sending.  There are a few use cases for this
+        } 
+        //for repeated sending.  There are a few use cases for this
         else {
             DataREG = *Packet;
         }
@@ -96,12 +93,6 @@ volatile void SPI_Start(const volatile unsigned char pin, const volatile unsigne
     Packet = givenPacket;
     Enableinterrupts();
 }
-//might be removed
-
-void SPI_Start_Queue_Packet(const volatile unsigned pin, volatile Queue* queue) {
-    currentCS = pin;
-    QueueMode = 1;
-}
 //for packets of unknown length, or sending packets of very small length.  Use blocking write function (mainly meant for when I don't care enough to define packets)
 void SPI_Start_Unknown_Packet(const volatile unsigned int pin) {
     currentCS = pin;
@@ -118,7 +109,6 @@ volatile void SPI_End(volatile unsigned int pin) {
     Disableinterrupts();
     currentCS = 0x00;
     //reset everything
-    QueueMode = 0;
     Repeatedsendmode = 0;
     packetpointer = 0;
     packetlength = 0;

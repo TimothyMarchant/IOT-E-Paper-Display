@@ -65,7 +65,7 @@ void __attribute__((interrupt)) SERCOM1_2_Handler(void) {
     *(datatoread + packetpointerR) = UART.SERCOM_DATA;
     packetpointerR++;
     //received last byte if this is true
-    if (packetpointerR == packetlengthR - 1) {
+    if (packetpointerR == packetlengthR) {
         UART.SERCOM_INTENCLR = RXC_Flag;
         packetpointerR = 0;
         Disableinterrupt();
@@ -126,7 +126,7 @@ void BeginTransmission(unsigned short Tlength, const unsigned char* Tpacket, uns
     packetlengthR = Rlength;
     
     if (!isScreenTransfer) {
-        UART.SERCOM_INTENCLR = RXC_Flag;
+        //UART.SERCOM_INTENCLR = RXC_Flag;
     }
     if (Tlength == 0||isScreenTransfer) {
         UART.SERCOM_INTENCLR = TXC_Flag;

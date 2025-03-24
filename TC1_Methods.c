@@ -32,8 +32,3 @@ void DisableinterruptOVF_TC1(void){
     TC1->COUNT8.TC_INTENCLR=0x01;
     NVIC_DisableIRQ(TC1_IRQn);
 }
-/*
-void Preload(unsigned char Preload){
-    
-}
- * */
