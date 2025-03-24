@@ -141,6 +141,7 @@
       <itemPath>EICFlagbits.h</itemPath>
       <itemPath>EIC_Configbits.h</itemPath>
       <itemPath>EIC_Methods.h</itemPath>
+      <itemPath>Sleepconfig.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -431,7 +432,7 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3fff"/>
-        <property key="poweroptions.powerenable" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoImageName"
                   value="E_Paper_IOT_Proof_Of_Concept_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
@@ -442,7 +443,7 @@
         <property key="programoptions.pgdconfig" value="pull down"/>
         <property key="programoptions.pgdresistor.value" value="4.7"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
-        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.pgmspeed" value="Min"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
@@ -503,7 +504,9 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3fff"/>
-        <property key="poweroptions.powerenable" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/Timothy Marchant/MPLABXProjects/E_Paper_IOT_Proof_Of_Concept.X/debug/default/E_Paper_IOT_Proof_Of_Concept_ptg"/>
         <property key="programmerToGoImageName"
                   value="E_Paper_IOT_Proof_Of_Concept_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
@@ -514,7 +517,7 @@
         <property key="programoptions.pgdconfig" value="pull down"/>
         <property key="programoptions.pgdresistor.value" value="4.7"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
-        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.pgmspeed" value="Min"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>

@@ -21,7 +21,8 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/TC1_Methods.h \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/EIC_Methods.h \
  ../src/../E_Paper_IOT_Proof_Of_Concept.X/EIC_Configbits.h \
- ../src/../E_Paper_IOT_Proof_Of_Concept.X/EICFlagbits.h
+ ../src/../E_Paper_IOT_Proof_Of_Concept.X/EICFlagbits.h \
+ ../src/../E_Paper_IOT_Proof_Of_Concept.X/Sleepconfig.h
 
 ../src/config/default/definitions.h:
 
@@ -70,3 +71,5 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 ../src/../E_Paper_IOT_Proof_Of_Concept.X/EIC_Configbits.h:
 
 ../src/../E_Paper_IOT_Proof_Of_Concept.X/EICFlagbits.h:
+
+../src/../E_Paper_IOT_Proof_Of_Concept.X/Sleepconfig.h:
