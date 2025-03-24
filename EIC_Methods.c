@@ -16,10 +16,6 @@ void Init_EIC(const unsigned char EICINTEN, const unsigned int configvalue) {
     EIC->EIC_DEBOUNCEN = EnableDebounce;
     EIC->EIC_DPRESCALER = Prescalersettings;
     EIC->EIC_INTENSET = EICINTEN;
-    
-    
-    
-    
     NVIC_SetPriority(EIC_EXTINT_0_IRQn, 3);
     NVIC_SetPriority(EIC_EXTINT_0_IRQn, 3);
     NVIC_SetPriority(EIC_EXTINT_0_IRQn, 3);

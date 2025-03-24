@@ -206,6 +206,7 @@
       <itemPath>Pervaise_Display_E_Paper_Drivers.c</itemPath>
       <itemPath>SERCOM0_Methods_SPI.c</itemPath>
       <itemPath>EIC_Methods.c</itemPath>
+      <itemPath>Sleepconfig.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
